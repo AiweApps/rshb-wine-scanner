@@ -1,0 +1,23 @@
+services:
+  gateway:
+    build: .
+    image: rshb-wine-scanner-gateway:local
+    ports:
+      - "127.0.0.1:${WINE_SCANNER_PUBLISH_PORT:-8287}:8287"
+    environment:
+      WINE_SCANNER_BACKEND: ${WINE_SCANNER_BACKEND:-http://host.docker.internal:8175}
+      WINE_SCANNER_ASSETS_SHA256: ${WINE_SCANNER_ASSETS_SHA256:?set WINE_SCANNER_ASSETS_SHA256 in .env}
+      WINE_SCANNER_EXPECTED_PROFILE: ${WINE_SCANNER_EXPECTED_PROFILE:?set WINE_SCANNER_EXPECTED_PROFILE in .env}
+    volumes:
+      - type: bind
+        source: ${WINE_SCANNER_ASSETS_HOST_DIR:?set WINE_SCANNER_ASSETS_HOST_DIR in .env}
+        target: /assets
+        read_only: true
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped

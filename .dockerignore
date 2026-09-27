@@ -1,0 +1,5 @@
+*
+!requirements.txt
+!wine_scanner/
+**/__pycache__
+**/*.pyc
