@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wine-scanner"
+version = "0.1.0"
+description = "Web gateway and upload UI for a local wine label recognition service"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141,<0.142",
+    "starlette>=1.6,<1.7",
+    "uvicorn>=0.53,<0.54",
+    "httpx>=0.28,<0.29",
+    "pillow>=12.3,<13",
+    "python-multipart>=0.0.32,<0.1",
+]
+
+[project.scripts]
+wine-scanner = "wine_scanner.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["wine_scanner*"]
+
+[tool.setuptools.package-data]
+wine_scanner = ["static/*"]
