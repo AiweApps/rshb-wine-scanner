@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Винный сканер</title>
+<link rel="icon" href="/static/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/app.css">
+<script src="/static/app.js" defer></script>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="brand">
+    <span class="kicker">локальный распознаватель этикеток</span>
+    <h1>Винный <em>сканер</em></h1>
+  </div>
+  <button class="status" id="status" type="button" aria-live="polite" title="Состояние сервиса распознавания">
+    <span class="dot" aria-hidden="true"></span><span id="status-text">проверяем сервис…</span>
+  </button>
+</header>
+
+<main class="layout">
+  <section class="stage" aria-label="Фотография">
+    <div class="stage-head">
+      <span class="step">I</span><h2>Фото бутылки</h2>
+      <div class="stage-tools" id="stage-tools" hidden>
+        <button type="button" class="ghost" id="draw-btn" aria-pressed="false">Выделить рамку</button>
+        <button type="button" class="ghost" id="new-btn">Новое фото</button>
+      </div>
+    </div>
+
+    <label class="drop" id="drop" for="file">
+      <input type="file" id="file" accept="image/jpeg,image/png,image/webp" hidden>
+      <span class="drop-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 96" width="46" height="70"><path d="M24 4h16v18c0 6 12 12 12 30v36a4 4 0 0 1-4 4H16a4 4 0 0 1-4-4V52c0-18 12-24 12-30z" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="17" y="54" width="30" height="22" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </span>
+      <span class="drop-title">Выберите или перетащите фото</span>
+      <span class="drop-note">JPEG, PNG или WebP · до&nbsp;20&nbsp;МиБ и&nbsp;24&nbsp;Мп · фото не&nbsp;сохраняется</span>
+      <span class="button primary" aria-hidden="true">Выбрать фото</span>
+    </label>
+
+    <figure class="photo" id="photo" hidden>
+      <div class="photo-frame" id="frame">
+        <img id="preview" alt="Загруженное фото">
+        <svg id="overlay" class="overlay" aria-label="Найденные бутылки"></svg>
+        <div class="draw-hint" id="draw-hint" hidden>Проведите по фото, чтобы обвести нужную бутылку</div>
+      </div>
+      <figcaption id="photo-caption"></figcaption>
+    </figure>
+  </section>
+
+  <section class="result" aria-label="Результат" aria-live="polite">
+    <div class="stage-head"><span class="step">II</span><h2>Результат</h2></div>
+
+    <div class="panel idle" id="idle">
+      <p class="lede">Сканер ищет вино в каталоге «Своё вино» по фотографии этикетки и показывает
+        лучшее совпадение и похожие варианты.</p>
+      <ol class="howto">
+        <li>Снимите бутылку так, чтобы этикетка была видна целиком.</li>
+        <li>Если бутылок несколько — выберите нужную рамку или обведите её сами.</li>
+        <li>Сверьте результат с карточкой по ссылке.</li>
+      </ol>
+    </div>
+
+    <div class="panel loading" id="loading" hidden>
+      <div class="pour" aria-hidden="true"><span></span></div>
+      <p class="loading-title" id="loading-title">Читаем этикетку…</p>
+      <p class="muted" id="loading-note">Обычно несколько секунд.</p>
+    </div>
+
+    <div class="panel error" id="error" hidden role="alert">
+      <p class="error-title" id="error-title">Не получилось</p>
+      <p id="error-text"></p>
+      <div class="actions">
+        <button type="button" class="primary" id="retry-btn">Повторить</button>
+        <button type="button" class="ghost" id="reset-btn">Другое фото</button>
+      </div>
+    </div>
+
+    <div id="outcome" hidden>
+      <div class="notice" id="notice"></div>
+      <div class="bottle-tabs" id="tabs" role="tablist" aria-label="Бутылки на фото" hidden></div>
+      <div id="bottle"></div>
+      <details class="tech">
+        <summary>Технические детали</summary>
+        <dl id="tech-list"></dl>
+        <button type="button" class="ghost small" id="download-btn">Скачать ответ JSON</button>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>Сканер может ошибаться.</span>
+</footer>
+
+<template id="card-tpl">
+  <article class="card">
+    <div class="card-ref"><img alt="" loading="lazy"><span class="no-ref">эталон не показан</span></div>
+    <div class="card-body">
+      <span class="card-tag"></span>
+      <h3 class="card-title"></h3>
+      <p class="card-producer"></p>
+      <p class="card-meta"></p>
+      <div class="card-link"></div>
+    </div>
+  </article>
+</template>
+</body>
+</html>
