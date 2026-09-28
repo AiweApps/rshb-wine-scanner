@@ -1,0 +1,2438 @@
+{
+ "augment": true,
+ "checksum": "df69c5acb140498c3f867a6791061fb1a7fda7f9a42db79dbe985c41365b5d11",
+ "files": {
+  "rshb_vine/__init__.py": {
+   "bytes": 67,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5121346b164b88b6b841c0bab3a48ebc66db66234c51345e5382e6051a41103b",
+   "role": "traced",
+   "sha256": "5121346b164b88b6b841c0bab3a48ebc66db66234c51345e5382e6051a41103b"
+  },
+  "rshb_vine/admitted_evidence_recognition.py": {
+   "bytes": 1329,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e4d9e98616e5427a26981bdbeccfefa38e291fc546f40cf48bc2c9ab440f69fd",
+   "role": "traced",
+   "sha256": "e4d9e98616e5427a26981bdbeccfefa38e291fc546f40cf48bc2c9ab440f69fd"
+  },
+  "rshb_vine/admitted_grape_evidence.py": {
+   "bytes": 6672,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "80a90326edd9f92f399a1b715fa0d99869e9b7e1637b6ee70655f070c9a72f83",
+   "role": "traced",
+   "sha256": "80a90326edd9f92f399a1b715fa0d99869e9b7e1637b6ee70655f070c9a72f83"
+  },
+  "rshb_vine/alternative_b3_consensus.py": {
+   "bytes": 4251,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "08518bf77c665eb3190bcf04a079e9ad22fc8b227dc196565a5430fd003e865e",
+   "role": "traced",
+   "sha256": "08518bf77c665eb3190bcf04a079e9ad22fc8b227dc196565a5430fd003e865e"
+  },
+  "rshb_vine/api.py": {
+   "bytes": 1893,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d8eb0fe3c1bb8a5f2f2dfa1326ae57fc1864204dc2671610b91bac141acc1c1f",
+   "role": "traced",
+   "sha256": "d8eb0fe3c1bb8a5f2f2dfa1326ae57fc1864204dc2671610b91bac141acc1c1f"
+  },
+  "rshb_vine/atlas_geometry_repair_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/atlas_geometry_repair_v1/plan.py": {
+   "bytes": 7872,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b0d8688cce8b549758dc1c6e47355db51850c03c787f8fd1eca7e9873e64430c",
+   "role": "traced",
+   "sha256": "b0d8688cce8b549758dc1c6e47355db51850c03c787f8fd1eca7e9873e64430c"
+  },
+  "rshb_vine/atlas_geometry_repair_v1/runtime.py": {
+   "bytes": 34406,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "29fa6ca3f13c2aac7b3ec49a4d4a36bbdca4d17efe183e475bc2aeb64ade6e85",
+   "role": "traced",
+   "sha256": "29fa6ca3f13c2aac7b3ec49a4d4a36bbdca4d17efe183e475bc2aeb64ade6e85"
+  },
+  "rshb_vine/atlas_repair_release_v1/__init__.py": {
+   "bytes": 122,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "dd2c70119506a193436e531b6a30927d5794eb2377075fb2cb7edb0272d1c63e",
+   "role": "traced",
+   "sha256": "dd2c70119506a193436e531b6a30927d5794eb2377075fb2cb7edb0272d1c63e"
+  },
+  "rshb_vine/atlas_repair_release_v1/candidate.py": {
+   "bytes": 12655,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "db98843872ad99358eda7e4cc500a0ee1c2ea7fbaed262f3f256782bad3cba4a",
+   "role": "traced",
+   "sha256": "db98843872ad99358eda7e4cc500a0ee1c2ea7fbaed262f3f256782bad3cba4a"
+  },
+  "rshb_vine/atlas_repair_release_v1/lifecycle.py": {
+   "bytes": 22638,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0033b35bf416cd2144ed7a18d7c063adcee14857c0492046627ff79e30cae516",
+   "role": "traced",
+   "sha256": "0033b35bf416cd2144ed7a18d7c063adcee14857c0492046627ff79e30cae516"
+  },
+  "rshb_vine/atlas_repair_release_v1/recipe.py": {
+   "bytes": 8931,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "186960bd2ae36207d5e895607bcae79bc5a7b10af75da21f94ae6703bc28aa91",
+   "role": "traced",
+   "sha256": "186960bd2ae36207d5e895607bcae79bc5a7b10af75da21f94ae6703bc28aa91"
+  },
+  "rshb_vine/atlas_repair_release_v1/release.py": {
+   "bytes": 30887,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "9c5f12640feb2c0fb1887fdffe4b2fe94be903e8ecd8e8fc2895138bf021f9ed",
+   "role": "traced",
+   "sha256": "9c5f12640feb2c0fb1887fdffe4b2fe94be903e8ecd8e8fc2895138bf021f9ed"
+  },
+  "rshb_vine/atlas_text_repair_v1/__init__.py": {
+   "bytes": 92,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4293288155ea0f0db520d174c11e094aefcb4df45afed5794d42f1790551f62d",
+   "role": "traced",
+   "sha256": "4293288155ea0f0db520d174c11e094aefcb4df45afed5794d42f1790551f62d"
+  },
+  "rshb_vine/atlas_text_repair_v1/composition.py": {
+   "bytes": 3921,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "1e20f8fb54a29373f454b8af358c658aededa2c12216172ac8b31339e5ab8c4f",
+   "role": "traced",
+   "sha256": "1e20f8fb54a29373f454b8af358c658aededa2c12216172ac8b31339e5ab8c4f"
+  },
+  "rshb_vine/atlas_text_repair_v1/experiment.py": {
+   "bytes": 12385,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6337d131fa97270e8fb220b294e79c582df9cd6f587e1e2852488bf06ba610c6",
+   "role": "traced",
+   "sha256": "6337d131fa97270e8fb220b294e79c582df9cd6f587e1e2852488bf06ba610c6"
+  },
+  "rshb_vine/atlas_text_repair_v1/index.py": {
+   "bytes": 20199,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "ebfff841dbcb17b807d60bbb8b859dc85b34a54bdc4fd0bf1db5619144598633",
+   "role": "traced",
+   "sha256": "ebfff841dbcb17b807d60bbb8b859dc85b34a54bdc4fd0bf1db5619144598633"
+  },
+  "rshb_vine/b3_only_v1/__init__.py": {
+   "bytes": 119,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0d34fb363786825c63ed6d0f11fec46d281b7213628baf98a1d145ea868156f0",
+   "role": "traced",
+   "sha256": "0d34fb363786825c63ed6d0f11fec46d281b7213628baf98a1d145ea868156f0"
+  },
+  "rshb_vine/b3_only_v1/release.py": {
+   "bytes": 13955,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "ab79db60fdbc0e0e5414b6d6ca1880117966ea446f4d411ae2af6b903aefdd1f",
+   "role": "traced",
+   "sha256": "ab79db60fdbc0e0e5414b6d6ca1880117966ea446f4d411ae2af6b903aefdd1f"
+  },
+  "rshb_vine/b3_only_v1/runtime.py": {
+   "bytes": 16679,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "605d2b32c6688482ab9eb403ac7a395f1d0965134fb408df0b1f4a7bcbf95695",
+   "role": "traced",
+   "sha256": "605d2b32c6688482ab9eb403ac7a395f1d0965134fb408df0b1f4a7bcbf95695"
+  },
+  "rshb_vine/b3_only_v1/split.py": {
+   "bytes": 11506,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4c0835771725b2347e9e7eb4e04c3679c9d91a7c3f38efdc8ba518b676e12d9c",
+   "role": "traced",
+   "sha256": "4c0835771725b2347e9e7eb4e04c3679c9d91a7c3f38efdc8ba518b676e12d9c"
+  },
+  "rshb_vine/b3_ranker_refit_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/b3_ranker_refit_v1/census.py": {
+   "bytes": 16453,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "9753dd057e0de521c9f199d98fc2435a1decd623b981869cbda7ccf301287873",
+   "role": "traced",
+   "sha256": "9753dd057e0de521c9f199d98fc2435a1decd623b981869cbda7ccf301287873"
+  },
+  "rshb_vine/bottle_instances.py": {
+   "bytes": 3736,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "34a860d549d1a23b7ace65919eb74a36c3e1eda0b274006ce097a351370b3ab3",
+   "role": "traced",
+   "sha256": "34a860d549d1a23b7ace65919eb74a36c3e1eda0b274006ce097a351370b3ab3"
+  },
+  "rshb_vine/bottle_isolation_evidence.py": {
+   "bytes": 6734,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f4663c8af309a1743e1d10643e15a3fab22cea3a08701dbd0fe2598d05d68d88",
+   "role": "traced",
+   "sha256": "f4663c8af309a1743e1d10643e15a3fab22cea3a08701dbd0fe2598d05d68d88"
+  },
+  "rshb_vine/bottle_label_localizer.py": {
+   "bytes": 4221,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "79993c8cfafa74c13196f52ce65ae4f29d586691940732f76a57e2065f3c9f18",
+   "role": "traced",
+   "sha256": "79993c8cfafa74c13196f52ce65ae4f29d586691940732f76a57e2065f3c9f18"
+  },
+  "rshb_vine/bottle_rescue.py": {
+   "bytes": 2996,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e095596c32228552d022c50a70753b876a7130436e15a15a967432709811c33d",
+   "role": "traced",
+   "sha256": "e095596c32228552d022c50a70753b876a7130436e15a15a967432709811c33d"
+  },
+  "rshb_vine/candidate_discriminators.py": {
+   "bytes": 11732,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "42e0fa85ea3bb34d84d14b275272aa2deaffde5796b3c6d09962e2ed6fee9a01",
+   "role": "traced",
+   "sha256": "42e0fa85ea3bb34d84d14b275272aa2deaffde5796b3c6d09962e2ed6fee9a01"
+  },
+  "rshb_vine/candidate_listwise.py": {
+   "bytes": 21325,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f5ee59bbcf3a605d703eafc6e48006764b7f827625020a6f9fc85bdace6cac8e",
+   "role": "traced",
+   "sha256": "f5ee59bbcf3a605d703eafc6e48006764b7f827625020a6f9fc85bdace6cac8e"
+  },
+  "rshb_vine/catalog/__init__.py": {
+   "bytes": 41,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "fdcca0d6a45125c0eb4f65c1e02217d586c615069a8f5f8dee704018e11974df",
+   "role": "traced",
+   "sha256": "fdcca0d6a45125c0eb4f65c1e02217d586c615069a8f5f8dee704018e11974df"
+  },
+  "rshb_vine/catalog/product_registry.py": {
+   "bytes": 6647,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d3fda0ab682220696bb71b07108797c7098a44fe5a124ac28aecca8efb1a282e",
+   "role": "traced",
+   "sha256": "d3fda0ab682220696bb71b07108797c7098a44fe5a124ac28aecca8efb1a282e"
+  },
+  "rshb_vine/catalog/profiles.py": {
+   "bytes": 2942,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "ff02a23b3b0550f178c7e6ec56cb35794fe7dcccea2e24fa1d04cc0bef8ab2e5",
+   "role": "traced",
+   "sha256": "ff02a23b3b0550f178c7e6ec56cb35794fe7dcccea2e24fa1d04cc0bef8ab2e5"
+  },
+  "rshb_vine/catalog_additions.py": {
+   "bytes": 7381,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "acb4574bff8cb3368df7a6351b96f1fa942eaa41a6035c07a59f1be5cdbab336",
+   "role": "traced",
+   "sha256": "acb4574bff8cb3368df7a6351b96f1fa942eaa41a6035c07a59f1be5cdbab336"
+  },
+  "rshb_vine/catalog_constrained_title.py": {
+   "bytes": 2776,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "1d9761afdcecbf27cc498dcfd0c3e1e9b8f63fc9684a940af5f14e9e858a6d5c",
+   "role": "traced",
+   "sha256": "1d9761afdcecbf27cc498dcfd0c3e1e9b8f63fc9684a940af5f14e9e858a6d5c"
+  },
+  "rshb_vine/catalog_phrase_text.py": {
+   "bytes": 3043,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4cdcae7727ccdb75f20226bf7c406a0cc96d4ffca9845b0abb03aff065452b9b",
+   "role": "traced",
+   "sha256": "4cdcae7727ccdb75f20226bf7c406a0cc96d4ffca9845b0abb03aff065452b9b"
+  },
+  "rshb_vine/catalog_text_retrieval.py": {
+   "bytes": 4021,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f03cda688b3ff72a6a458403c87966bdb7b8a141ecffd587160d95a55e4479b6",
+   "role": "traced",
+   "sha256": "f03cda688b3ff72a6a458403c87966bdb7b8a141ecffd587160d95a55e4479b6"
+  },
+  "rshb_vine/catalog_training_evaluation_v2/__init__.py": {
+   "bytes": 113,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "1d2eef771acc53b99add6e862cec95baa9759a14c0042d8dc0722531b54365eb",
+   "role": "traced",
+   "sha256": "1d2eef771acc53b99add6e862cec95baa9759a14c0042d8dc0722531b54365eb"
+  },
+  "rshb_vine/catalog_training_evaluation_v2/adapter.py": {
+   "bytes": 5123,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "10113b7358c6db62dbd86a12ca4b14bf3a3ac335f4f2805e5fd6c29cde4b8794",
+   "role": "traced",
+   "sha256": "10113b7358c6db62dbd86a12ca4b14bf3a3ac335f4f2805e5fd6c29cde4b8794"
+  },
+  "rshb_vine/catalog_training_evaluation_v2/pins.py": {
+   "bytes": 5385,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e2486da11967ccd367a35ef2f965b3b88e07536554079685c8b22dc288e1c61a",
+   "role": "traced",
+   "sha256": "e2486da11967ccd367a35ef2f965b3b88e07536554079685c8b22dc288e1c61a"
+  },
+  "rshb_vine/catalog_training_evaluation_v2/reindex.py": {
+   "bytes": 9313,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "558a151ff8591cfe7c0259f0e64a5c59b6adb3485ba936450bcdc2326a88bd63",
+   "role": "traced",
+   "sha256": "558a151ff8591cfe7c0259f0e64a5c59b6adb3485ba936450bcdc2326a88bd63"
+  },
+  "rshb_vine/catalog_training_evaluation_v2/score.py": {
+   "bytes": 7800,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "27e71cdabacf4b77d2986440f8122c5dda597f4139b717f84c30c393c77d86fe",
+   "role": "traced",
+   "sha256": "27e71cdabacf4b77d2986440f8122c5dda597f4139b717f84c30c393c77d86fe"
+  },
+  "rshb_vine/catalog_training_v2/__init__.py": {
+   "bytes": 75,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e15770b703d7f42617d47e6c6415a2d9e10045c435cae20a8b1fac620b112a21",
+   "role": "traced",
+   "sha256": "e15770b703d7f42617d47e6c6415a2d9e10045c435cae20a8b1fac620b112a21"
+  },
+  "rshb_vine/catalog_training_v2/data.py": {
+   "bytes": 9845,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "c032cfb1e72ff543c85f370f636d8b9ebf5e00b525964345838a9004f15358c6",
+   "role": "traced",
+   "sha256": "c032cfb1e72ff543c85f370f636d8b9ebf5e00b525964345838a9004f15358c6"
+  },
+  "rshb_vine/catalog_training_v2/loss.py": {
+   "bytes": 4203,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a8aaae1a5742d7076afa76730664831d7e5bd162c5fa1f40f75c61963c581679",
+   "role": "traced",
+   "sha256": "a8aaae1a5742d7076afa76730664831d7e5bd162c5fa1f40f75c61963c581679"
+  },
+  "rshb_vine/catalog_training_v2/prepare.py": {
+   "bytes": 25601,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d66279f5990fe211bdadc04aa9b7f9ec316e259befc08175a3a2b89672b771d4",
+   "role": "traced",
+   "sha256": "d66279f5990fe211bdadc04aa9b7f9ec316e259befc08175a3a2b89672b771d4"
+  },
+  "rshb_vine/catalog_training_v2/trainer.py": {
+   "bytes": 25200,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "96f0c93f3750505d9cc7e6098719d0748530184d6831b1911ba23cea18322c6d",
+   "role": "traced",
+   "sha256": "96f0c93f3750505d9cc7e6098719d0748530184d6831b1911ba23cea18322c6d"
+  },
+  "rshb_vine/coherent_challenger_v1/__init__.py": {
+   "bytes": 109,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "370c1e0f521be114dd1baf2c98269aca74b96df245ed75877a5a58e9e33ae526",
+   "role": "traced",
+   "sha256": "370c1e0f521be114dd1baf2c98269aca74b96df245ed75877a5a58e9e33ae526"
+  },
+  "rshb_vine/coherent_challenger_v1/active.py": {
+   "bytes": 4594,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e024747d0c49b118836e89995971cb168c6c52bb9c6faa587084e0e5b6b178b4",
+   "role": "traced",
+   "sha256": "e024747d0c49b118836e89995971cb168c6c52bb9c6faa587084e0e5b6b178b4"
+  },
+  "rshb_vine/coherent_challenger_v1/identity.py": {
+   "bytes": 6916,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "83dd2a7fac0639cfb31077e3ce3dbd2106a56ccfc612f5cc8b221da6e9a5d55f",
+   "role": "traced",
+   "sha256": "83dd2a7fac0639cfb31077e3ce3dbd2106a56ccfc612f5cc8b221da6e9a5d55f"
+  },
+  "rshb_vine/coherent_challenger_v1/scope.py": {
+   "bytes": 11598,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5b06e21b2b62c7552c8116e148f2d139f896bb4f9858086b52c8fe8ebab5457e",
+   "role": "traced",
+   "sha256": "5b06e21b2b62c7552c8116e148f2d139f896bb4f9858086b52c8fe8ebab5457e"
+  },
+  "rshb_vine/color_verified_recognition.py": {
+   "bytes": 1209,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "03d5a4121fce80e5c70001b5682bf57120e088fe5010627a398f9cd3144649ff",
+   "role": "traced",
+   "sha256": "03d5a4121fce80e5c70001b5682bf57120e088fe5010627a398f9cd3144649ff"
+  },
+  "rshb_vine/combined_ranker_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/combined_ranker_v1/identity.py": {
+   "bytes": 4920,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "bb91241e8cc6b176e9238f351ba3a3d60c894fd6fb22e0a029b9d6fdc564fce0",
+   "role": "traced",
+   "sha256": "bb91241e8cc6b176e9238f351ba3a3d60c894fd6fb22e0a029b9d6fdc564fce0"
+  },
+  "rshb_vine/combined_ranker_v1/roster.py": {
+   "bytes": 23109,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4052facb2eac91d98195d7567be829c5e85b8791efdb303e8c5c0602cdda2018",
+   "role": "traced",
+   "sha256": "4052facb2eac91d98195d7567be829c5e85b8791efdb303e8c5c0602cdda2018"
+  },
+  "rshb_vine/competitive_product_evidence.py": {
+   "bytes": 16181,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4956518e43c2076521e0e975a2904ba76899e694cb946fee459d9bf8b7259608",
+   "role": "traced",
+   "sha256": "4956518e43c2076521e0e975a2904ba76899e694cb946fee459d9bf8b7259608"
+  },
+  "rshb_vine/competitive_selection.py": {
+   "bytes": 1137,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8d455534c5a91aeab57667eefbf6f1a8505cb9897bfcdb2a9dc2aaf6bd065389",
+   "role": "traced",
+   "sha256": "8d455534c5a91aeab57667eefbf6f1a8505cb9897bfcdb2a9dc2aaf6bd065389"
+  },
+  "rshb_vine/conditional_line_profile.py": {
+   "bytes": 1960,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "1f489c14bb0b7ef6084e2cd99ebfb3626d1017fbaf5af0077eb07ea2a0685905",
+   "role": "traced",
+   "sha256": "1f489c14bb0b7ef6084e2cd99ebfb3626d1017fbaf5af0077eb07ea2a0685905"
+  },
+  "rshb_vine/conditional_ocr.py": {
+   "bytes": 6150,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "bb1a4c8118a85a7b69ab2f7ac9407f0049bf7b5fa559861d10839f89e5ca9386",
+   "role": "traced",
+   "sha256": "bb1a4c8118a85a7b69ab2f7ac9407f0049bf7b5fa559861d10839f89e5ca9386"
+  },
+  "rshb_vine/crop_stage_pipeline.py": {
+   "bytes": 867,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4521949596befcbf66eb9812d8152b1ca171905f13bbc5461cb4f8cd73c81dd8",
+   "role": "traced",
+   "sha256": "4521949596befcbf66eb9812d8152b1ca171905f13bbc5461cb4f8cd73c81dd8"
+  },
+  "rshb_vine/data_protection.py": {
+   "bytes": 2540,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "1a913e6841010b5df188d9d2e4e5d79a320ec92f1f8fe2f9c07f763b1f304ab6",
+   "role": "traced",
+   "sha256": "1a913e6841010b5df188d9d2e4e5d79a320ec92f1f8fe2f9c07f763b1f304ab6"
+  },
+  "rshb_vine/decision_consistency_v1/__init__.py": {
+   "bytes": 136,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a7334ddf05c3149620e80bf329a80950e66938540aeba0ac8e9deb87caf0139a",
+   "role": "traced",
+   "sha256": "a7334ddf05c3149620e80bf329a80950e66938540aeba0ac8e9deb87caf0139a"
+  },
+  "rshb_vine/decision_consistency_v1/composition.py": {
+   "bytes": 5597,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "af2dc4a3fd77d2b4ffce8d70e9f1d0aa7666b7c2e020619b92941c2e6eafb10b",
+   "role": "traced",
+   "sha256": "af2dc4a3fd77d2b4ffce8d70e9f1d0aa7666b7c2e020619b92941c2e6eafb10b"
+  },
+  "rshb_vine/decision_consistency_v1/experiment.py": {
+   "bytes": 10196,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "3f9122b056cacfd6e00f721b0d97c1d1d253bfd59516d3c89b57c99835d0d0ab",
+   "role": "traced",
+   "sha256": "3f9122b056cacfd6e00f721b0d97c1d1d253bfd59516d3c89b57c99835d0d0ab"
+  },
+  "rshb_vine/decision_consistency_v1/identity.py": {
+   "bytes": 10034,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "58cc5505cff68180403d86a191b90e62b3d18a1985914fe6eafee9d0025a69f0",
+   "role": "traced",
+   "sha256": "58cc5505cff68180403d86a191b90e62b3d18a1985914fe6eafee9d0025a69f0"
+  },
+  "rshb_vine/decision_consistency_v1/pairwise.py": {
+   "bytes": 16098,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8616da52498a3e855171eb31c2096b206f00d609e423fe498eafcf540ffb3e24",
+   "role": "traced",
+   "sha256": "8616da52498a3e855171eb31c2096b206f00d609e423fe498eafcf540ffb3e24"
+  },
+  "rshb_vine/domain_augmentation.py": {
+   "bytes": 2861,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6909f6b07c4d4914f9bf0ca6e00aea9a69031a975a82cf8e0186a49952032961",
+   "role": "traced",
+   "sha256": "6909f6b07c4d4914f9bf0ca6e00aea9a69031a975a82cf8e0186a49952032961"
+  },
+  "rshb_vine/domain_retrieval_replay.py": {
+   "bytes": 2391,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a31bdb348dbf99bc2f0d3943d1480de6ad2eebad7d91ee887c18ab301645f6be",
+   "role": "traced",
+   "sha256": "a31bdb348dbf99bc2f0d3943d1480de6ad2eebad7d91ee887c18ab301645f6be"
+  },
+  "rshb_vine/encoder_artifact.py": {
+   "bytes": 2391,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e6366918025e90c9e83656e9c8f8ce18d57f5c75c4a339a5c1f63c0e957d0d8d",
+   "role": "traced",
+   "sha256": "e6366918025e90c9e83656e9c8f8ce18d57f5c75c4a339a5c1f63c0e957d0d8d"
+  },
+  "rshb_vine/evaluation/__init__.py": {
+   "bytes": 39,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2a18f83743bac971031f0d3362ffb232f139ec5710a8099c93963b1cbbb1a091",
+   "role": "traced",
+   "sha256": "2a18f83743bac971031f0d3362ffb232f139ec5710a8099c93963b1cbbb1a091"
+  },
+  "rshb_vine/evaluation/reset_access.py": {
+   "bytes": 1599,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4f5a440adb7b89bbec50c8b5b4a5b0a70913054eaf7d9e5195279813931d4b69",
+   "role": "traced",
+   "sha256": "4f5a440adb7b89bbec50c8b5b4a5b0a70913054eaf7d9e5195279813931d4b69"
+  },
+  "rshb_vine/evidence_consistency_release_v1/__init__.py": {
+   "bytes": 115,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "261630e1cd52127f5be024328bdd28e6a6d8d75b4c9591672e29483b2d6ef4c7",
+   "role": "traced",
+   "sha256": "261630e1cd52127f5be024328bdd28e6a6d8d75b4c9591672e29483b2d6ef4c7"
+  },
+  "rshb_vine/evidence_consistency_release_v1/candidate.py": {
+   "bytes": 12080,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "c02521d854c6e531edd6fb14f783ea12e07114bffdf6c64a9490e2019c447147",
+   "role": "traced",
+   "sha256": "c02521d854c6e531edd6fb14f783ea12e07114bffdf6c64a9490e2019c447147"
+  },
+  "rshb_vine/evidence_consistency_release_v1/recipe.py": {
+   "bytes": 4255,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f177d49f827aa1f899722e972f2bbe2b252ab01cec235a78b76a662b6eab13a1",
+   "role": "traced",
+   "sha256": "f177d49f827aa1f899722e972f2bbe2b252ab01cec235a78b76a662b6eab13a1"
+  },
+  "rshb_vine/evidence_consistency_release_v1/release.py": {
+   "bytes": 27859,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "13b8c5e449469545b613cb890f0dbfba8238f6b76a461eb5f43406cac5252783",
+   "role": "traced",
+   "sha256": "13b8c5e449469545b613cb890f0dbfba8238f6b76a461eb5f43406cac5252783"
+  },
+  "rshb_vine/existing_target_parent_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/existing_target_parent_v1/component.py": {
+   "bytes": 1085,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f2a773a621b0a38f206b3715018204e8d20a24a809783da1462fd6af9bb01ffa",
+   "role": "traced",
+   "sha256": "f2a773a621b0a38f206b3715018204e8d20a24a809783da1462fd6af9bb01ffa"
+  },
+  "rshb_vine/existing_target_parent_v1/plan.py": {
+   "bytes": 5363,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "9a14d89f38d827b54a682224c3c77e4c289c087efa748a252be38def28118d64",
+   "role": "traced",
+   "sha256": "9a14d89f38d827b54a682224c3c77e4c289c087efa748a252be38def28118d64"
+  },
+  "rshb_vine/existing_target_parent_v1/runtime.py": {
+   "bytes": 28968,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "92274bdc0708b2d1b28746d3fcd5f98cd2643d946f869fe34341a3dc774d53aa",
+   "role": "traced",
+   "sha256": "92274bdc0708b2d1b28746d3fcd5f98cd2643d946f869fe34341a3dc774d53aa"
+  },
+  "rshb_vine/front_label_repair_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/front_label_repair_v1/geometry.py": {
+   "bytes": 2169,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "c95f3851fc5ee7e3d1ff64810c9d57a5c5c83c38fcdb02ab37aa5e99c4cee895",
+   "role": "traced",
+   "sha256": "c95f3851fc5ee7e3d1ff64810c9d57a5c5c83c38fcdb02ab37aa5e99c4cee895"
+  },
+  "rshb_vine/front_label_repair_v1/probe.py": {
+   "bytes": 4217,
+   "change": null,
+   "imported_by": "scripts/front_label_repair_v1.py",
+   "origin": "git",
+   "original_sha256": "4f3b7ca6222bc3abd549b3ed9461168b1d60a7d5760e2b087ea26c1f34d9c1d4",
+   "role": "static_conditional",
+   "sha256": "4f3b7ca6222bc3abd549b3ed9461168b1d60a7d5760e2b087ea26c1f34d9c1d4"
+  },
+  "rshb_vine/front_label_repair_v1/runtime.py": {
+   "bytes": 11004,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "9c0a22a0d54ae66754dc6dea8320e2a4a67500f89e1497372c7e58709aaa2afa",
+   "role": "traced",
+   "sha256": "9c0a22a0d54ae66754dc6dea8320e2a4a67500f89e1497372c7e58709aaa2afa"
+  },
+  "rshb_vine/frozen_candidate_selector.py": {
+   "bytes": 8194,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "c8aee27c71642dc71eed3381cb8b795a0f1d5ca02ab7ebba7ea72c9e7e532fa5",
+   "role": "traced",
+   "sha256": "c8aee27c71642dc71eed3381cb8b795a0f1d5ca02ab7ebba7ea72c9e7e532fa5"
+  },
+  "rshb_vine/gallery_variant_text.py": {
+   "bytes": 4303,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5eb128c5032b7cf52d6cfca33251d932e343787855e637eb8a5fa6b1f25fe070",
+   "role": "traced",
+   "sha256": "5eb128c5032b7cf52d6cfca33251d932e343787855e637eb8a5fa6b1f25fe070"
+  },
+  "rshb_vine/geometric_reference_probe_v1/__init__.py": {
+   "bytes": 2696,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "fea80eaeebb7515a409ed462c1ae3c6464c559c63617b4191890a6115b9b52ab",
+   "role": "traced",
+   "sha256": "fea80eaeebb7515a409ed462c1ae3c6464c559c63617b4191890a6115b9b52ab"
+  },
+  "rshb_vine/geometric_reference_probe_v1/layout.py": {
+   "bytes": 6041,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f65f8384ea7632c4c0be43814b15a8b7f785fda0312eca7b48e930912beba9d6",
+   "role": "traced",
+   "sha256": "f65f8384ea7632c4c0be43814b15a8b7f785fda0312eca7b48e930912beba9d6"
+  },
+  "rshb_vine/geometric_reference_probe_v1/verifier.py": {
+   "bytes": 12874,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "cddffa71fd5a56904613ff69b3f677ed03c42ae624364e8d7755091b51179c1e",
+   "role": "traced",
+   "sha256": "cddffa71fd5a56904613ff69b3f677ed03c42ae624364e8d7755091b51179c1e"
+  },
+  "rshb_vine/geometry_loop.py": {
+   "bytes": 3608,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "adc063213121d7f450ea53d3823d1b9d061d816d60d99163384206ea629cb0bd",
+   "role": "traced",
+   "sha256": "adc063213121d7f450ea53d3823d1b9d061d816d60d99163384206ea629cb0bd"
+  },
+  "rshb_vine/instance_detector.py": {
+   "bytes": 2337,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b88a71b338367d34091a6fdb2bc7397e49343938a07e8b4ac2387ded3c2bc868",
+   "role": "traced",
+   "sha256": "b88a71b338367d34091a6fdb2bc7397e49343938a07e8b4ac2387ded3c2bc868"
+  },
+  "rshb_vine/instance_text_profile.py": {
+   "bytes": 2290,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a25b1acc752b9394cb440a8afb5b904f4f98950d54325e112ee3df0e3f3441ad",
+   "role": "traced",
+   "sha256": "a25b1acc752b9394cb440a8afb5b904f4f98950d54325e112ee3df0e3f3441ad"
+  },
+  "rshb_vine/integrated_candidate_v1/__init__.py": {
+   "bytes": 115,
+   "change": null,
+   "imported_by": "rshb_vine/integrated_candidate_v1/runtime.py",
+   "origin": "git",
+   "original_sha256": "76b9487563e339cfe926734a023509b77066432fee90aa96810db9cd4992275e",
+   "role": "static_conditional",
+   "sha256": "76b9487563e339cfe926734a023509b77066432fee90aa96810db9cd4992275e"
+  },
+  "rshb_vine/integrated_candidate_v1/runtime.py": {
+   "bytes": 11468,
+   "change": null,
+   "imported_by": "rshb_vine/recognition_receipts.py",
+   "origin": "git",
+   "original_sha256": "dffc985167cb1dc324e4569665ebe2229b7c8f4adfc02eb6ad433a7eb221f2b3",
+   "role": "static_conditional",
+   "sha256": "dffc985167cb1dc324e4569665ebe2229b7c8f4adfc02eb6ad433a7eb221f2b3"
+  },
+  "rshb_vine/integrated_recognition.py": {
+   "bytes": 1571,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a1ae2459cbc281fe6a2ffb24c8a50ee5533b0476b95b64cb91f02f3d114f12b4",
+   "role": "traced",
+   "sha256": "a1ae2459cbc281fe6a2ffb24c8a50ee5533b0476b95b64cb91f02f3d114f12b4"
+  },
+  "rshb_vine/interaction_ranker_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/interaction_ranker_v1/evaluate.py": {
+   "bytes": 8308,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "568543308f14736d4157f2972ccc6241e95f804c079bd23724aeb2d3b5994122",
+   "role": "traced",
+   "sha256": "568543308f14736d4157f2972ccc6241e95f804c079bd23724aeb2d3b5994122"
+  },
+  "rshb_vine/interaction_ranker_v1/evidence.py": {
+   "bytes": 13941,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "17dc38e48071576947f69d0fa90808111ab90aed629d4ebdc986a2d610c12cbf",
+   "role": "traced",
+   "sha256": "17dc38e48071576947f69d0fa90808111ab90aed629d4ebdc986a2d610c12cbf"
+  },
+  "rshb_vine/interaction_ranker_v1/source.py": {
+   "bytes": 2462,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6ccf256e2c7dfef7abb97a1c1162d0445beef4f5dd25a24164ebba162ba3a4f2",
+   "role": "traced",
+   "sha256": "6ccf256e2c7dfef7abb97a1c1162d0445beef4f5dd25a24164ebba162ba3a4f2"
+  },
+  "rshb_vine/io.py": {
+   "bytes": 2032,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "22ca12b8885e3c14d4be9dd85aae8d12cbf4b806a61c4558e9a76aaf4ceaba9c",
+   "role": "traced",
+   "sha256": "22ca12b8885e3c14d4be9dd85aae8d12cbf4b806a61c4558e9a76aaf4ceaba9c"
+  },
+  "rshb_vine/label_detector.py": {
+   "bytes": 5270,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "bd0cdb09546539417eb4c04716bd4cec1d8f2a8cb732a590d590d5c94bcfdac4",
+   "role": "traced",
+   "sha256": "bd0cdb09546539417eb4c04716bd4cec1d8f2a8cb732a590d590d5c94bcfdac4"
+  },
+  "rshb_vine/label_detector_training.py": {
+   "bytes": 13407,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "c00d2986a3ea0dcda003f2a582955df8f8b76a932c506d6c52ed9ec5a8af7212",
+   "role": "traced",
+   "sha256": "c00d2986a3ea0dcda003f2a582955df8f8b76a932c506d6c52ed9ec5a8af7212"
+  },
+  "rshb_vine/label_first_pipeline.py": {
+   "bytes": 10331,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "75ad44b63ea6b36f0889ff1adea408db70165b23042eb906a11a5ca007cbb0e2",
+   "role": "traced",
+   "sha256": "75ad44b63ea6b36f0889ff1adea408db70165b23042eb906a11a5ca007cbb0e2"
+  },
+  "rshb_vine/label_first_release.py": {
+   "bytes": 11102,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5826196b47978b1678e0d54516d3132381c8dbb15118ece3cda5a39bb1fde950",
+   "role": "traced",
+   "sha256": "5826196b47978b1678e0d54516d3132381c8dbb15118ece3cda5a39bb1fde950"
+  },
+  "rshb_vine/label_region_ownership.py": {
+   "bytes": 1970,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "617400bf2b2acb6702cec85cbd017dae5e225007597748db98847ad853da0cbf",
+   "role": "traced",
+   "sha256": "617400bf2b2acb6702cec85cbd017dae5e225007597748db98847ad853da0cbf"
+  },
+  "rshb_vine/label_rescue.py": {
+   "bytes": 2492,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6e1a94a896a48807ccc509e5ac1e33a8d4108bcb5bad00c5107dc7c1bc256b1d",
+   "role": "traced",
+   "sha256": "6e1a94a896a48807ccc509e5ac1e33a8d4108bcb5bad00c5107dc7c1bc256b1d"
+  },
+  "rshb_vine/label_specialist_consensus.py": {
+   "bytes": 4372,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5fe8ff39cf481c16351a5cceb1d6c36b03f06362330cd963105ce9fc35850e89",
+   "role": "traced",
+   "sha256": "5fe8ff39cf481c16351a5cceb1d6c36b03f06362330cd963105ce9fc35850e89"
+  },
+  "rshb_vine/learned_selection_features.py": {
+   "bytes": 16622,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2f2b89b28dca4bede51a95e6ff408d886738d763ccfd51da3a3f251198abeca2",
+   "role": "traced",
+   "sha256": "2f2b89b28dca4bede51a95e6ff408d886738d763ccfd51da3a3f251198abeca2"
+  },
+  "rshb_vine/learned_selection_model.py": {
+   "bytes": 19477,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "dddfc26299df977101c7b6dd5422def647ca97e0f5f32ac632235275f0abe70e",
+   "role": "traced",
+   "sha256": "dddfc26299df977101c7b6dd5422def647ca97e0f5f32ac632235275f0abe70e"
+  },
+  "rshb_vine/learned_selection_resolution.py": {
+   "bytes": 5885,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "eff7e40b47f4333cc958f0e3469462353cf313fa93bc12922b253a0ec839f87e",
+   "role": "traced",
+   "sha256": "eff7e40b47f4333cc958f0e3469462353cf313fa93bc12922b253a0ec839f87e"
+  },
+  "rshb_vine/line_evidence_verifier_v2.py": {
+   "bytes": 3750,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8ace295434fb7cb85c6c9a133c13aa5f7ad393544a2a0ac2d0e0b5cfe4d2d056",
+   "role": "traced",
+   "sha256": "8ace295434fb7cb85c6c9a133c13aa5f7ad393544a2a0ac2d0e0b5cfe4d2d056"
+  },
+  "rshb_vine/metric_adaptation.py": {
+   "bytes": 5731,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d47b5c5440b67730821ce38efb088da7db67aea98ad599123779dfe3610bce76",
+   "role": "traced",
+   "sha256": "d47b5c5440b67730821ce38efb088da7db67aea98ad599123779dfe3610bce76"
+  },
+  "rshb_vine/models.py": {
+   "bytes": 6940,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e02fb8b5f2d1a27fdf65a8c6df7ef86e4ba2912b30c7752dd16a5680aa754f57",
+   "role": "traced",
+   "sha256": "e02fb8b5f2d1a27fdf65a8c6df7ef86e4ba2912b30c7752dd16a5680aa754f57"
+  },
+  "rshb_vine/ocr_candidate_repair_v1/__init__.py": {
+   "bytes": 113,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "01da223c96b48359b1ebf3975d8bdadb01c731f2e7c4e628276d34cce91cddb6",
+   "role": "traced",
+   "sha256": "01da223c96b48359b1ebf3975d8bdadb01c731f2e7c4e628276d34cce91cddb6"
+  },
+  "rshb_vine/ocr_candidate_repair_v1/discriminator.py": {
+   "bytes": 5732,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0c7fce5cad0d573ee981cb1899085ceac402fa45073480154ea7e44e530f5098",
+   "role": "traced",
+   "sha256": "0c7fce5cad0d573ee981cb1899085ceac402fa45073480154ea7e44e530f5098"
+  },
+  "rshb_vine/ocr_candidate_repair_v1/guarded.py": {
+   "bytes": 1004,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "90be61887c01f5d1501a996514936ef35acf09fe679e8e7e2c13155edc35cb93",
+   "role": "traced",
+   "sha256": "90be61887c01f5d1501a996514936ef35acf09fe679e8e7e2c13155edc35cb93"
+  },
+  "rshb_vine/ocr_candidate_repair_v1/injection.py": {
+   "bytes": 10761,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "20cc4bb91c0fa7f58db96d6abf5d6bf9b35e1fb6044fc7b4f6697ca7d77cb754",
+   "role": "traced",
+   "sha256": "20cc4bb91c0fa7f58db96d6abf5d6bf9b35e1fb6044fc7b4f6697ca7d77cb754"
+  },
+  "rshb_vine/ocr_candidate_repair_v1/selection.py": {
+   "bytes": 9450,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "47768816d4166841d3702d52b481b6fe7f5c3ac3e0e418774a5d74cabede03fb",
+   "role": "traced",
+   "sha256": "47768816d4166841d3702d52b481b6fe7f5c3ac3e0e418774a5d74cabede03fb"
+  },
+  "rshb_vine/ocr_provenance_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/ocr_provenance_v1/contract.py": {
+   "bytes": 8144,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0e9163e06710809a71bd6b5bc29c4946d74ed652b378046114342a2fb2b868ad",
+   "role": "traced",
+   "sha256": "0e9163e06710809a71bd6b5bc29c4946d74ed652b378046114342a2fb2b868ad"
+  },
+  "rshb_vine/ocr_v5_v6_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/ocr_v5_v6_v1/pipeline.py": {
+   "bytes": 24038,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4ce3c5381cfc0f5a682b486e691a8961686ced784d3a8091dfc10ca39d3d4f1c",
+   "role": "traced",
+   "sha256": "4ce3c5381cfc0f5a682b486e691a8961686ced784d3a8091dfc10ca39d3d4f1c"
+  },
+  "rshb_vine/ocr_v5_v6_v1/reader.py": {
+   "bytes": 15273,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "467a42057c8ced99b0318423a47255a15e2be5eafdd4d66f2b7ebc061c0a1028",
+   "role": "traced",
+   "sha256": "467a42057c8ced99b0318423a47255a15e2be5eafdd4d66f2b7ebc061c0a1028"
+  },
+  "rshb_vine/oriented_geometry.py": {
+   "bytes": 1762,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b301c6ec9544adf7f4cc4c29257436efd912eafd20b8b687110028f20dbbbeae",
+   "role": "traced",
+   "sha256": "b301c6ec9544adf7f4cc4c29257436efd912eafd20b8b687110028f20dbbbeae"
+  },
+  "rshb_vine/orphan_label_recovery.py": {
+   "bytes": 4271,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b24cdc36101a019b5cab585d0b63597ef99b61e9d664dfb018fb0f11ed11b832",
+   "role": "traced",
+   "sha256": "b24cdc36101a019b5cab585d0b63597ef99b61e9d664dfb018fb0f11ed11b832"
+  },
+  "rshb_vine/orphan_label_recovery_v2.py": {
+   "bytes": 6472,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a7fdf3ba1a8df5f5b3ee35cc06a805ebf0dce7fa8ffdf0c86c703f2df75f291d",
+   "role": "traced",
+   "sha256": "a7fdf3ba1a8df5f5b3ee35cc06a805ebf0dce7fa8ffdf0c86c703f2df75f291d"
+  },
+  "rshb_vine/oversized_label_speed.py": {
+   "bytes": 4136,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "14f877130ce4dee8bce8d440787459d5a8786fbddf0c6826d0f1918ab0066555",
+   "role": "traced",
+   "sha256": "14f877130ce4dee8bce8d440787459d5a8786fbddf0c6826d0f1918ab0066555"
+  },
+  "rshb_vine/positive_variant_text.py": {
+   "bytes": 4546,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4feee05907b3c8a0da7482f8779ac12ea701c6ec6df1792b27764309b615869a",
+   "role": "traced",
+   "sha256": "4feee05907b3c8a0da7482f8779ac12ea701c6ec6df1792b27764309b615869a"
+  },
+  "rshb_vine/preprocessing/__init__.py": {
+   "bytes": 2913,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e1bdca4d34fe8dab19b5b4fb8cf6a2497777eb8ffd0692f812a6dd37b9f514f1",
+   "role": "traced",
+   "sha256": "e1bdca4d34fe8dab19b5b4fb8cf6a2497777eb8ffd0692f812a6dd37b9f514f1"
+  },
+  "rshb_vine/primary_target_v1/__init__.py": {
+   "bytes": 100,
+   "change": null,
+   "imported_by": "rshb_vine/integrated_candidate_v1/runtime.py",
+   "origin": "git",
+   "original_sha256": "1d2526504bc53d08d697c844207134cec6d4d0706fb285a23430997461037064",
+   "role": "static_conditional",
+   "sha256": "1d2526504bc53d08d697c844207134cec6d4d0706fb285a23430997461037064"
+  },
+  "rshb_vine/primary_target_v1/policy.py": {
+   "bytes": 6594,
+   "change": null,
+   "imported_by": "rshb_vine/integrated_candidate_v1/runtime.py",
+   "origin": "git",
+   "original_sha256": "d309e94bc3921974c6db99c40b3087e32f1c739a684c2042ce352f5b4c8e4409",
+   "role": "static_conditional",
+   "sha256": "d309e94bc3921974c6db99c40b3087e32f1c739a684c2042ce352f5b4c8e4409"
+  },
+  "rshb_vine/producer_role_v2/__init__.py": {
+   "bytes": 117,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5890606152abdc8bbdaf9545671fdc9973c5bc3f8f04a124bdad992aac55f731",
+   "role": "traced",
+   "sha256": "5890606152abdc8bbdaf9545671fdc9973c5bc3f8f04a124bdad992aac55f731"
+  },
+  "rshb_vine/producer_role_v2/roles.py": {
+   "bytes": 10448,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8c43da22930fcd3679c921a674c5c17ab113411b90bccec53618d037851b2b6b",
+   "role": "traced",
+   "sha256": "8c43da22930fcd3679c921a674c5c17ab113411b90bccec53618d037851b2b6b"
+  },
+  "rshb_vine/producer_role_v2/selection.py": {
+   "bytes": 6404,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "16ae5c59a4699c3d4252d67237c084e67def9337de71ea6288664999cf1849cf",
+   "role": "traced",
+   "sha256": "16ae5c59a4699c3d4252d67237c084e67def9337de71ea6288664999cf1849cf"
+  },
+  "rshb_vine/product_evidence_resolution.py": {
+   "bytes": 2551,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8f6b7d4e445ffc7b6c1f4d1c8aba3e8ef758f4c64c278d8423f59b93d1928109",
+   "role": "traced",
+   "sha256": "8f6b7d4e445ffc7b6c1f4d1c8aba3e8ef758f4c64c278d8423f59b93d1928109"
+  },
+  "rshb_vine/product_first/__init__.py": {
+   "bytes": 75,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "7e01e19d0b5f1138f388355bf23aaa7fdfb90d9537e000c856b16f7da3ad3945",
+   "role": "traced",
+   "sha256": "7e01e19d0b5f1138f388355bf23aaa7fdfb90d9537e000c856b16f7da3ad3945"
+  },
+  "rshb_vine/product_first/partial_evidence.py": {
+   "bytes": 4184,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "ed7ed6d6e04e041450fd2abd6e2ad0fe2f993fa3b02140a63ee178f6f95ccf07",
+   "role": "traced",
+   "sha256": "ed7ed6d6e04e041450fd2abd6e2ad0fe2f993fa3b02140a63ee178f6f95ccf07"
+  },
+  "rshb_vine/product_first/visual_selector.py": {
+   "bytes": 2602,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "28bd4e8415cb8c5c9ad1f0f22d2db9acf2207ce475f3f71030be51f2f6ca0729",
+   "role": "traced",
+   "sha256": "28bd4e8415cb8c5c9ad1f0f22d2db9acf2207ce475f3f71030be51f2f6ca0729"
+  },
+  "rshb_vine/product_first/year_evidence.py": {
+   "bytes": 2534,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0969a5b92da5856e8a4701edc85441a8584f60fa18d3c2f7a16acc07ae217203",
+   "role": "traced",
+   "sha256": "0969a5b92da5856e8a4701edc85441a8584f60fa18d3c2f7a16acc07ae217203"
+  },
+  "rshb_vine/product_name_selector.py": {
+   "bytes": 2183,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6ee27b479dab8c444efff49bb7dd9624917f544a0cd7a1619a9e408b1ca6dab4",
+   "role": "traced",
+   "sha256": "6ee27b479dab8c444efff49bb7dd9624917f544a0cd7a1619a9e408b1ca6dab4"
+  },
+  "rshb_vine/product_selection.py": {
+   "bytes": 6570,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "20e4a5f9b3666fef9a010b4087554b192ac66d05ae2310dcce7d7b59fd40b71b",
+   "role": "traced",
+   "sha256": "20e4a5f9b3666fef9a010b4087554b192ac66d05ae2310dcce7d7b59fd40b71b"
+  },
+  "rshb_vine/product_vintage_scope.py": {
+   "bytes": 3484,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "343fbdacae18574c86fb8336a27032deea850b101a429ee17542fb6a301415a7",
+   "role": "traced",
+   "sha256": "343fbdacae18574c86fb8336a27032deea850b101a429ee17542fb6a301415a7"
+  },
+  "rshb_vine/profile_verifier_v5.py": {
+   "bytes": 4122,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "bb6ff684ceda83597279950e53e7f63c2ba4bdbfa04f19b39b5482b32bb3f0af",
+   "role": "traced",
+   "sha256": "bb6ff684ceda83597279950e53e7f63c2ba4bdbfa04f19b39b5482b32bb3f0af"
+  },
+  "rshb_vine/proposal_verifier.py": {
+   "bytes": 5848,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "95ea042551036c3505e94f210e10b8857b1c94b87038cbe53a61193c355cc334",
+   "role": "traced",
+   "sha256": "95ea042551036c3505e94f210e10b8857b1c94b87038cbe53a61193c355cc334"
+  },
+  "rshb_vine/rank_fused_b3_consensus.py": {
+   "bytes": 4017,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4c54d9c86341ea8b6db4387158cb4bc050c56db33350301b8195e320a769dfd8",
+   "role": "traced",
+   "sha256": "4c54d9c86341ea8b6db4387158cb4bc050c56db33350301b8195e320a769dfd8"
+  },
+  "rshb_vine/ranker_dataset_v1/__init__.py": {
+   "bytes": 71,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0c810aa2de3423328fef9ecfeb411a50126d45a9e402b8f102b9f5c6ebdef07a",
+   "role": "traced",
+   "sha256": "0c810aa2de3423328fef9ecfeb411a50126d45a9e402b8f102b9f5c6ebdef07a"
+  },
+  "rshb_vine/ranker_dataset_v1/guard_compare.py": {
+   "bytes": 5795,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "7225ef08790a9244e2880e515d46433250897652dd1c6f9e77bad365c6bf3afd",
+   "role": "traced",
+   "sha256": "7225ef08790a9244e2880e515d46433250897652dd1c6f9e77bad365c6bf3afd"
+  },
+  "rshb_vine/ranker_dataset_v1/model.py": {
+   "bytes": 10409,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "fe2c42e171f19b63d6f00a42d4ab322ad5ef3e7eae7be9595e39f736ee0af55e",
+   "role": "traced",
+   "sha256": "fe2c42e171f19b63d6f00a42d4ab322ad5ef3e7eae7be9595e39f736ee0af55e"
+  },
+  "rshb_vine/ranker_integration_v3/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/ranker_integration_v3/masks.py": {
+   "bytes": 5315,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d71bd4017a7d7b6ab9d3fcc6b1ead2912af0baecb6d78cf5f54a54e93f238863",
+   "role": "traced",
+   "sha256": "d71bd4017a7d7b6ab9d3fcc6b1ead2912af0baecb6d78cf5f54a54e93f238863"
+  },
+  "rshb_vine/reading_recovery_v1/__init__.py": {
+   "bytes": 439,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "05f967d197f9a4e44adf0aaa829194f8dc50a2c8ab6650d8bf58f939848671f3",
+   "role": "traced",
+   "sha256": "05f967d197f9a4e44adf0aaa829194f8dc50a2c8ab6650d8bf58f939848671f3"
+  },
+  "rshb_vine/reading_recovery_v1/candidate.py": {
+   "bytes": 6266,
+   "change": null,
+   "imported_by": "rshb_vine/evidence_consistency_release_v1/recipe.py",
+   "origin": "git",
+   "original_sha256": "a5212612164299104671dd7a753ad33de45e8660683648cd370f310a67efb8b6",
+   "role": "static_conditional",
+   "sha256": "a5212612164299104671dd7a753ad33de45e8660683648cd370f310a67efb8b6"
+  },
+  "rshb_vine/reading_recovery_v1/census.py": {
+   "bytes": 5515,
+   "change": null,
+   "imported_by": "rshb_vine/reading_recovery_v1/candidate.py",
+   "origin": "git",
+   "original_sha256": "7f35ce852755cfc6885df92b0d8f2bbe08aabcb8bf00ed9ba99ee2c8c0c41371",
+   "role": "static_conditional",
+   "sha256": "7f35ce852755cfc6885df92b0d8f2bbe08aabcb8bf00ed9ba99ee2c8c0c41371"
+  },
+  "rshb_vine/reading_recovery_v1/rotated_ocr.py": {
+   "bytes": 11366,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2cebfca3538482668e2be56c38a7a8306cb1395767aaf59911613cab816fc962",
+   "role": "traced",
+   "sha256": "2cebfca3538482668e2be56c38a7a8306cb1395767aaf59911613cab816fc962"
+  },
+  "rshb_vine/reading_recovery_v1/route.py": {
+   "bytes": 10253,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8c999fcd974badff067c37574ff0484cadbfd74c9a1082e4a8ec6875acba0cfd",
+   "role": "traced",
+   "sha256": "8c999fcd974badff067c37574ff0484cadbfd74c9a1082e4a8ec6875acba0cfd"
+  },
+  "rshb_vine/recognition_api.py": {
+   "bytes": 2142,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2c2a39deb5aee2ba87e19663dcd07a064a53d1eb602fa1b944dd30cbbc9e1ac0",
+   "role": "traced",
+   "sha256": "2c2a39deb5aee2ba87e19663dcd07a064a53d1eb602fa1b944dd30cbbc9e1ac0"
+  },
+  "rshb_vine/recognition_factory.py": {
+   "bytes": 12447,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6e42408013cd000363db89c8f4c93fffaa11c85a333fe982428fa5d5c82adeee",
+   "role": "traced",
+   "sha256": "6e42408013cd000363db89c8f4c93fffaa11c85a333fe982428fa5d5c82adeee"
+  },
+  "rshb_vine/recognition_miss_repair_v1/geometry.py": {
+   "bytes": 3986,
+   "change": null,
+   "imported_by": "rshb_vine/integrated_candidate_v1/runtime.py",
+   "origin": "git",
+   "original_sha256": "16343f21f657c1b98209ec7068281a3e4f8cdfdb6c6082fe4687e45cbe6890f8",
+   "role": "static_conditional",
+   "sha256": "16343f21f657c1b98209ec7068281a3e4f8cdfdb6c6082fe4687e45cbe6890f8"
+  },
+  "rshb_vine/recognition_profile.py": {
+   "bytes": 584,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a8af5efc806c88574319355c251c72d55e640bd2b6eee15e44645921a21935a8",
+   "role": "traced",
+   "sha256": "a8af5efc806c88574319355c251c72d55e640bd2b6eee15e44645921a21935a8"
+  },
+  "rshb_vine/recognition_receipts.py": {
+   "bytes": 22825,
+   "change": null,
+   "imported_by": "rshb_vine/text_evidence_repair_v2/runtime.py",
+   "origin": "git",
+   "original_sha256": "3c4f240c32e6b4e381e4eb3ff03647332883f9bb700c3c92d11faa88460fbba9",
+   "role": "static_conditional",
+   "sha256": "3c4f240c32e6b4e381e4eb3ff03647332883f9bb700c3c92d11faa88460fbba9"
+  },
+  "rshb_vine/recognition_repair_v1/__init__.py": {
+   "bytes": 152,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2aa17777a98c38ea6835928090aefef254411fa1ef0d0ca57a8ed8ab53644a22",
+   "role": "traced",
+   "sha256": "2aa17777a98c38ea6835928090aefef254411fa1ef0d0ca57a8ed8ab53644a22"
+  },
+  "rshb_vine/recognition_repair_v1/release.py": {
+   "bytes": 19730,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "756e84071c95a5c555fd8da920af46a9d42c6f326804cebab65b59477b580cc1",
+   "role": "traced",
+   "sha256": "756e84071c95a5c555fd8da920af46a9d42c6f326804cebab65b59477b580cc1"
+  },
+  "rshb_vine/recognition_repair_v1/runtime.py": {
+   "bytes": 18992,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2ec9b79de967c2bc4a7c1120da0d609fa2cc8576dacb5064f80911bd8cb2d29e",
+   "role": "traced",
+   "sha256": "2ec9b79de967c2bc4a7c1120da0d609fa2cc8576dacb5064f80911bd8cb2d29e"
+  },
+  "rshb_vine/recognition_repair_v2/__init__.py": {
+   "bytes": 132,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f9f7d25e2738fef73b03156e83416e8e511e3ca185d8efcdbdc5661b4f9703ea",
+   "role": "traced",
+   "sha256": "f9f7d25e2738fef73b03156e83416e8e511e3ca185d8efcdbdc5661b4f9703ea"
+  },
+  "rshb_vine/recognition_repair_v2/composition.py": {
+   "bytes": 6490,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8188ab968df20ca55b3172f3e5d15c81cde95d9c348406b411a0e237788fb12c",
+   "role": "traced",
+   "sha256": "8188ab968df20ca55b3172f3e5d15c81cde95d9c348406b411a0e237788fb12c"
+  },
+  "rshb_vine/recognition_repair_v2/geometry.py": {
+   "bytes": 10375,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "28706374b3a91b3a65a0e38701a0f5409c9364aef3b2e090ec777091c5dfb4a4",
+   "role": "traced",
+   "sha256": "28706374b3a91b3a65a0e38701a0f5409c9364aef3b2e090ec777091c5dfb4a4"
+  },
+  "rshb_vine/recognition_repair_v2/producer.py": {
+   "bytes": 2239,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "21a1eaaed5c17e6c3f07b9e86e541c302c3b51170e45db5e5465be61f105ceea",
+   "role": "traced",
+   "sha256": "21a1eaaed5c17e6c3f07b9e86e541c302c3b51170e45db5e5465be61f105ceea"
+  },
+  "rshb_vine/recognition_repair_v2/release.py": {
+   "bytes": 23734,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b7288105830056d7619d7851bf2ade5a34f788b445e8172512b0acbaa44fa27c",
+   "role": "traced",
+   "sha256": "b7288105830056d7619d7851bf2ade5a34f788b445e8172512b0acbaa44fa27c"
+  },
+  "rshb_vine/recognition_repair_v2/runtime.py": {
+   "bytes": 10833,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f4a692f2b60609a63be99ecff175481b8bf71e40dcf54260f07772f4e4fab43f",
+   "role": "traced",
+   "sha256": "f4a692f2b60609a63be99ecff175481b8bf71e40dcf54260f07772f4e4fab43f"
+  },
+  "rshb_vine/recognition_runtime.py": {
+   "bytes": 15967,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "832025c730b0246e5d6a668a0ca09c613dcc9f9cfce6fe3001466e113f19f22d",
+   "role": "traced",
+   "sha256": "832025c730b0246e5d6a668a0ca09c613dcc9f9cfce6fe3001466e113f19f22d"
+  },
+  "rshb_vine/reference_additions_v1/__init__.py": {
+   "bytes": 113,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5ba1b083ca3fb825de5a48af08a4a968dc521e15f392fb9db7ccbd53931d4a0a",
+   "role": "traced",
+   "sha256": "5ba1b083ca3fb825de5a48af08a4a968dc521e15f392fb9db7ccbd53931d4a0a"
+  },
+  "rshb_vine/reference_additions_v1/admission.py": {
+   "bytes": 8408,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "60da60dc87c9cf22836037022a6231ac083f96ac9f3970ff317c7ad09ffd9583",
+   "role": "traced",
+   "sha256": "60da60dc87c9cf22836037022a6231ac083f96ac9f3970ff317c7ad09ffd9583"
+  },
+  "rshb_vine/reference_additions_v1/component.py": {
+   "bytes": 37562,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5cbdab908fb16b323bbc0f7d8f3c09e3cf421fa8fcb72db0d6161443ad94ded3",
+   "role": "traced",
+   "sha256": "5cbdab908fb16b323bbc0f7d8f3c09e3cf421fa8fcb72db0d6161443ad94ded3"
+  },
+  "rshb_vine/reference_additions_v1/gallery.py": {
+   "bytes": 7827,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e131492c83ddde3f15251843e7e149fb4d48f4b069d9080b6522f6946c8d2791",
+   "role": "traced",
+   "sha256": "e131492c83ddde3f15251843e7e149fb4d48f4b069d9080b6522f6946c8d2791"
+  },
+  "rshb_vine/reference_color_evidence.py": {
+   "bytes": 3122,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5dac80e236d8ca3db153b60d3d79ea024477207113da171adbe5c6f0076cefad",
+   "role": "traced",
+   "sha256": "5dac80e236d8ca3db153b60d3d79ea024477207113da171adbe5c6f0076cefad"
+  },
+  "rshb_vine/reference_conflicts_v1/__init__.py": {
+   "bytes": 103,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "845e963bab30a238922a1ea8fb6643b4b0a7f886c2bf18ea1394bea07f70f6b0",
+   "role": "traced",
+   "sha256": "845e963bab30a238922a1ea8fb6643b4b0a7f886c2bf18ea1394bea07f70f6b0"
+  },
+  "rshb_vine/reference_conflicts_v1/guard.py": {
+   "bytes": 10015,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "479bd2b82653690bf325cc485e1cfe8d648d0bcfc663a4785fbc8006d0e482c9",
+   "role": "traced",
+   "sha256": "479bd2b82653690bf325cc485e1cfe8d648d0bcfc663a4785fbc8006d0e482c9"
+  },
+  "rshb_vine/reference_conflicts_v1/runtime.py": {
+   "bytes": 4548,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "9d84abedaae46625eb3e8ed719aae74165891ccf651db461a8d057c4448333d4",
+   "role": "traced",
+   "sha256": "9d84abedaae46625eb3e8ed719aae74165891ccf651db461a8d057c4448333d4"
+  },
+  "rshb_vine/reference_dual_recognition.py": {
+   "bytes": 1051,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "36456869b579d3604d30a2754d69d1598ece3036a29dabeb2f19768ad231b37c",
+   "role": "traced",
+   "sha256": "36456869b579d3604d30a2754d69d1598ece3036a29dabeb2f19768ad231b37c"
+  },
+  "rshb_vine/reference_phrase_preservation.py": {
+   "bytes": 5045,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "269361d121cac36334d579b318d4b9307cea54fb2d0bbcc933cf455202546148",
+   "role": "traced",
+   "sha256": "269361d121cac36334d579b318d4b9307cea54fb2d0bbcc933cf455202546148"
+  },
+  "rshb_vine/release_next_v1/__init__.py": {
+   "bytes": 127,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "cafe4d7865832ee4c2ed3ebc1bb92cdb719693eb9f52a0584c5b28f6fe6ce270",
+   "role": "traced",
+   "sha256": "cafe4d7865832ee4c2ed3ebc1bb92cdb719693eb9f52a0584c5b28f6fe6ce270"
+  },
+  "rshb_vine/release_next_v1/candidate.py": {
+   "bytes": 11798,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5f02d55ee8c39082856e71756171e28d1e317ccf83d94b6644079fab0a27e577",
+   "role": "traced",
+   "sha256": "5f02d55ee8c39082856e71756171e28d1e317ccf83d94b6644079fab0a27e577"
+  },
+  "rshb_vine/release_next_v1/lifecycle.py": {
+   "bytes": 24930,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "953135fb3dee80b747403925ab00ccc8574a0d98533fe0d36374073b493dc4f8",
+   "role": "traced",
+   "sha256": "953135fb3dee80b747403925ab00ccc8574a0d98533fe0d36374073b493dc4f8"
+  },
+  "rshb_vine/release_next_v1/recipe.py": {
+   "bytes": 9749,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "176cab2e71af4834692f6a4521b3f467b980daa7e48887d608fe96e090bfb3c4",
+   "role": "traced",
+   "sha256": "176cab2e71af4834692f6a4521b3f467b980daa7e48887d608fe96e090bfb3c4"
+  },
+  "rshb_vine/release_next_v1/release.py": {
+   "bytes": 31748,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "44e269cb7a0ddeb8fd747ecd079d4800f647d6bef8b8eb4815624dca2f35871c",
+   "role": "traced",
+   "sha256": "44e269cb7a0ddeb8fd747ecd079d4800f647d6bef8b8eb4815624dca2f35871c"
+  },
+  "rshb_vine/request_visual_cache.py": {
+   "bytes": 7915,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d0eab324bd8451e0efb69d6bbcc5d2f7c8df26d7251b7780371d85a9780c1c67",
+   "role": "traced",
+   "sha256": "d0eab324bd8451e0efb69d6bbcc5d2f7c8df26d7251b7780371d85a9780c1c67"
+  },
+  "rshb_vine/resolution/__init__.py": {
+   "bytes": 3609,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "453d35ac6e9b001024d772834afb466d27f617668cdc5aa18c5bb45a33611c95",
+   "role": "traced",
+   "sha256": "453d35ac6e9b001024d772834afb466d27f617668cdc5aa18c5bb45a33611c95"
+  },
+  "rshb_vine/resolution/identity.py": {
+   "bytes": 6443,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "045ac34e9173efa9dc27c532d391259a5a6210201e269d1260c0c721a23dc71c",
+   "role": "traced",
+   "sha256": "045ac34e9173efa9dc27c532d391259a5a6210201e269d1260c0c721a23dc71c"
+  },
+  "rshb_vine/retrieval/__init__.py": {
+   "bytes": 4219,
+   "change": null,
+   "imported_by": "scripts/run_label_first.py",
+   "origin": "git",
+   "original_sha256": "cc66830db2866a9e05684860e0a3bc630f8bd099c1e48640d85a77d7aebf29aa",
+   "role": "static_conditional",
+   "sha256": "cc66830db2866a9e05684860e0a3bc630f8bd099c1e48640d85a77d7aebf29aa"
+  },
+  "rshb_vine/roi_selection.py": {
+   "bytes": 2264,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "233b8da0664abaef5f97635be2efae287dc78ef983417b7b379096fc236c2015",
+   "role": "traced",
+   "sha256": "233b8da0664abaef5f97635be2efae287dc78ef983417b7b379096fc236c2015"
+  },
+  "rshb_vine/roskachestvo_geometry_v2/__init__.py": {
+   "bytes": 102,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "37fa489d19aa854c51833e1ee9343a470868a686fc4d8e39eed5ddbe493f479c",
+   "role": "traced",
+   "sha256": "37fa489d19aa854c51833e1ee9343a470868a686fc4d8e39eed5ddbe493f479c"
+  },
+  "rshb_vine/roskachestvo_geometry_v2/association.py": {
+   "bytes": 11393,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "c5bea80ace1c0f3d4744751c2b44bab531e4eca172c92548edea9ff81ba02c1e",
+   "role": "traced",
+   "sha256": "c5bea80ace1c0f3d4744751c2b44bab531e4eca172c92548edea9ff81ba02c1e"
+  },
+  "rshb_vine/roskachestvo_geometry_v2/release.py": {
+   "bytes": 4646,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "56456d2cd8c773923d94efecd27310459b71260f3739b2ab37842f754a0b69c9",
+   "role": "traced",
+   "sha256": "56456d2cd8c773923d94efecd27310459b71260f3739b2ab37842f754a0b69c9"
+  },
+  "rshb_vine/roskachestvo_geometry_v2/runtime.py": {
+   "bytes": 4065,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f3024210729c56c88b2eef1f6857e9ddb28a5a808d23bf5cb61e55327f345773",
+   "role": "traced",
+   "sha256": "f3024210729c56c88b2eef1f6857e9ddb28a5a808d23bf5cb61e55327f345773"
+  },
+  "rshb_vine/runtime_product_selection.py": {
+   "bytes": 2104,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f31257068af84a0873d2e2da2703764eb9a36b6751fc12ccf82827986eb379a3",
+   "role": "traced",
+   "sha256": "f31257068af84a0873d2e2da2703764eb9a36b6751fc12ccf82827986eb379a3"
+  },
+  "rshb_vine/selected_product_output.py": {
+   "bytes": 10831,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5ea8b8e9ed76a1bf19e0a51a6b693afc0079a1898db9e8f6415949e5a0036151",
+   "role": "traced",
+   "sha256": "5ea8b8e9ed76a1bf19e0a51a6b693afc0079a1898db9e8f6415949e5a0036151"
+  },
+  "rshb_vine/selector_evidence.py": {
+   "bytes": 3610,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "fd5577b598db2a44febddde2dcd86c96497370bc45e919c0f3de6aecac0236fd",
+   "role": "traced",
+   "sha256": "fd5577b598db2a44febddde2dcd86c96497370bc45e919c0f3de6aecac0236fd"
+  },
+  "rshb_vine/series_evidence_challenger.py": {
+   "bytes": 3283,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6acbbe259408a90fafd62a2ecb4ed83505490cd64c6ef41bbed5c130ea5f57e6",
+   "role": "traced",
+   "sha256": "6acbbe259408a90fafd62a2ecb4ed83505490cd64c6ef41bbed5c130ea5f57e6"
+  },
+  "rshb_vine/sparse_alternative_ocr_v2.py": {
+   "bytes": 3492,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "3dc81a964ae7b0415a0e66fcbbfd8af759a12337aa8b065640ad73482ceca6b9",
+   "role": "traced",
+   "sha256": "3dc81a964ae7b0415a0e66fcbbfd8af759a12337aa8b065640ad73482ceca6b9"
+  },
+  "rshb_vine/square_rescue.py": {
+   "bytes": 3066,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6aa1b8ec15a3eb03c3148fb4bce46a2564bc1e6af81921fa28f33bc209d663e0",
+   "role": "traced",
+   "sha256": "6aa1b8ec15a3eb03c3148fb4bce46a2564bc1e6af81921fa28f33bc209d663e0"
+  },
+  "rshb_vine/sugar_evidence_challenger.py": {
+   "bytes": 2085,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "82b4f1d1037e4c926aaea14dfbec3a66dadeac2546bee2975142f23667ef1d88",
+   "role": "traced",
+   "sha256": "82b4f1d1037e4c926aaea14dfbec3a66dadeac2546bee2975142f23667ef1d88"
+  },
+  "rshb_vine/system_retrieval_v4/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/system_retrieval_v4/adapter.py": {
+   "bytes": 2617,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "3fc307c053b7a6950c1b1bee3ddd7696b0f92468b972d0184b5885388c4205a0",
+   "role": "traced",
+   "sha256": "3fc307c053b7a6950c1b1bee3ddd7696b0f92468b972d0184b5885388c4205a0"
+  },
+  "rshb_vine/system_retrieval_v4/normalize.py": {
+   "bytes": 4080,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "64ee543c12ca299afdd91cdcc7d39e3136e47eb19a1bba0450d300841972b975",
+   "role": "traced",
+   "sha256": "64ee543c12ca299afdd91cdcc7d39e3136e47eb19a1bba0450d300841972b975"
+  },
+  "rshb_vine/system_retrieval_v4/targeted_ocr.py": {
+   "bytes": 4437,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "984089b1b74c031b566e65158b4acea8f04e5284fd4f14f061418f2d5ef48731",
+   "role": "traced",
+   "sha256": "984089b1b74c031b566e65158b4acea8f04e5284fd4f14f061418f2d5ef48731"
+  },
+  "rshb_vine/system_retrieval_v4/text_candidates.py": {
+   "bytes": 7978,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "87f83144c8678a54c6da7a070d9da81b1e407dd901266d2909a9ef5ed086c42e",
+   "role": "traced",
+   "sha256": "87f83144c8678a54c6da7a070d9da81b1e407dd901266d2909a9ef5ed086c42e"
+  },
+  "rshb_vine/system_selection_v4/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/system_selection_v4/context.py": {
+   "bytes": 2424,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "303dc144157ac9690c21c165c5d4f6c9f98b782020fe366df73bf00be9df46dd",
+   "role": "traced",
+   "sha256": "303dc144157ac9690c21c165c5d4f6c9f98b782020fe366df73bf00be9df46dd"
+  },
+  "rshb_vine/system_selection_v4/features.py": {
+   "bytes": 28264,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "61b5880cf26c65bbb2706d826d05ce442d770cb07184992c668f18cacd3946bc",
+   "role": "traced",
+   "sha256": "61b5880cf26c65bbb2706d826d05ce442d770cb07184992c668f18cacd3946bc"
+  },
+  "rshb_vine/system_selection_v4/roster.py": {
+   "bytes": 7798,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a2f15c9d67247b788cdf78ec9889f33288724110f94a267b97c6bab2689dd336",
+   "role": "traced",
+   "sha256": "a2f15c9d67247b788cdf78ec9889f33288724110f94a267b97c6bab2689dd336"
+  },
+  "rshb_vine/system_selection_v4/scorer.py": {
+   "bytes": 10428,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f7072ee2a2feed9a2e1114ef2d701922607e909a40c423af7e0775028d1c9333",
+   "role": "traced",
+   "sha256": "f7072ee2a2feed9a2e1114ef2d701922607e909a40c423af7e0775028d1c9333"
+  },
+  "rshb_vine/system_selection_v4/text.py": {
+   "bytes": 18423,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0313649a5962182388fc2729af5a3c7576f90a86eac9262b3e4acd29ef182d30",
+   "role": "traced",
+   "sha256": "0313649a5962182388fc2729af5a3c7576f90a86eac9262b3e4acd29ef182d30"
+  },
+  "rshb_vine/systemic_ranking_v2/__init__.py": {
+   "bytes": 107,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a5d415cb613f7bdb84d6fd57721c9cf8842fb48019db9b0a22b228d168635658",
+   "role": "traced",
+   "sha256": "a5d415cb613f7bdb84d6fd57721c9cf8842fb48019db9b0a22b228d168635658"
+  },
+  "rshb_vine/systemic_ranking_v2/evidence.py": {
+   "bytes": 16101,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b9377299f8230b04b844ec2b0e520992b504d175616fdd59880a92d504af2d74",
+   "role": "traced",
+   "sha256": "b9377299f8230b04b844ec2b0e520992b504d175616fdd59880a92d504af2d74"
+  },
+  "rshb_vine/systemic_ranking_v2/model.py": {
+   "bytes": 5611,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "ed3702c673db5d14ed2d4c4ca9b1a5e03c63f7614ef9281b5c792507a42a661d",
+   "role": "traced",
+   "sha256": "ed3702c673db5d14ed2d4c4ca9b1a5e03c63f7614ef9281b5c792507a42a661d"
+  },
+  "rshb_vine/systemic_ranking_v2/release.py": {
+   "bytes": 1319,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "4ad31b19fa6d92abc1f9f701fd6a602c7e1f0eb43432d581e5e14c5d6fb2565a",
+   "role": "traced",
+   "sha256": "4ad31b19fa6d92abc1f9f701fd6a602c7e1f0eb43432d581e5e14c5d6fb2565a"
+  },
+  "rshb_vine/systemic_ranking_v2/runtime.py": {
+   "bytes": 3514,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "61bf4848e3d403e5f936ba973e262b9197ef5b8eb88c8375e18d1430d210f377",
+   "role": "traced",
+   "sha256": "61bf4848e3d403e5f936ba973e262b9197ef5b8eb88c8375e18d1430d210f377"
+  },
+  "rshb_vine/systemic_ranking_v2/selection.py": {
+   "bytes": 9691,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "1285c0f1eaee4028b1d147c597a9f0d724ff3c67b6ba306cc411febeb27aea2f",
+   "role": "traced",
+   "sha256": "1285c0f1eaee4028b1d147c597a9f0d724ff3c67b6ba306cc411febeb27aea2f"
+  },
+  "rshb_vine/systemic_ranking_v2/table.py": {
+   "bytes": 3625,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "61a1803eb2c614951c1667f4764d256c55ac327531299e0899b40e17af8f3f99",
+   "role": "traced",
+   "sha256": "61a1803eb2c614951c1667f4764d256c55ac327531299e0899b40e17af8f3f99"
+  },
+  "rshb_vine/target_contract_v2/__init__.py": {
+   "bytes": 78,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2d92382fd18cd69d9db1b8d5b8a9ea3fdb68d3203e6e6c43c4b3b670fdd950a1",
+   "role": "traced",
+   "sha256": "2d92382fd18cd69d9db1b8d5b8a9ea3fdb68d3203e6e6c43c4b3b670fdd950a1"
+  },
+  "rshb_vine/target_contract_v2/contract.py": {
+   "bytes": 10584,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b07a22fd671aa3b0491d48d026e2947e038a0a0b48f2f49424657c2c95a75393",
+   "role": "traced",
+   "sha256": "b07a22fd671aa3b0491d48d026e2947e038a0a0b48f2f49424657c2c95a75393"
+  },
+  "rshb_vine/target_contract_v2/release.py": {
+   "bytes": 1332,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6fc8e54a5cc6a4c8fc49cf513763c62cc3d4b6fb3dcbef6f62510cf98526dd52",
+   "role": "traced",
+   "sha256": "6fc8e54a5cc6a4c8fc49cf513763c62cc3d4b6fb3dcbef6f62510cf98526dd52"
+  },
+  "rshb_vine/target_contract_v2/runtime.py": {
+   "bytes": 7699,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8ec774265235948caf014f86ecc31710ee493be2f426bed6b6878a5e148bf1da",
+   "role": "traced",
+   "sha256": "8ec774265235948caf014f86ecc31710ee493be2f426bed6b6878a5e148bf1da"
+  },
+  "rshb_vine/target_misses_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/target_misses_v1/diagnose.py": {
+   "bytes": 4466,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "3dfe1dc179ca108b3b6f6b33e2daf5ff94f09f3842a29dd1b86ed22dfc5bfba2",
+   "role": "traced",
+   "sha256": "3dfe1dc179ca108b3b6f6b33e2daf5ff94f09f3842a29dd1b86ed22dfc5bfba2"
+  },
+  "rshb_vine/target_misses_v1/route.py": {
+   "bytes": 6847,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "dcb6ea2951d9300ba216c067a9adcbd6b3531672a375d62a45e580749427ecf0",
+   "role": "traced",
+   "sha256": "dcb6ea2951d9300ba216c067a9adcbd6b3531672a375d62a45e580749427ecf0"
+  },
+  "rshb_vine/target_misses_v1/scope.py": {
+   "bytes": 5165,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "7d45cc6610d97ba0d1d7953a954af17ae86afeb4e346f7e2bbd4e74ad0a2187f",
+   "role": "traced",
+   "sha256": "7d45cc6610d97ba0d1d7953a954af17ae86afeb4e346f7e2bbd4e74ad0a2187f"
+  },
+  "rshb_vine/text_evidence_repair_v1/__init__.py": {
+   "bytes": 112,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "fc60a8d56ed7121c56c6c94abf90f4e83a361a9fb52e05a36015dc38baa93a52",
+   "role": "traced",
+   "sha256": "fc60a8d56ed7121c56c6c94abf90f4e83a361a9fb52e05a36015dc38baa93a52"
+  },
+  "rshb_vine/text_evidence_repair_v1/composition.py": {
+   "bytes": 19759,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "1477837c1f337903e6cc7f31e1f87e376b33c9ba778585d473aed0b9f5c887a4",
+   "role": "traced",
+   "sha256": "1477837c1f337903e6cc7f31e1f87e376b33c9ba778585d473aed0b9f5c887a4"
+  },
+  "rshb_vine/text_evidence_repair_v1/experiment.py": {
+   "bytes": 20432,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "c91e07ca49873f4e5dd06ca8759bbc537eee0342dd6dc4d2772d7cecd5c36e94",
+   "role": "traced",
+   "sha256": "c91e07ca49873f4e5dd06ca8759bbc537eee0342dd6dc4d2772d7cecd5c36e94"
+  },
+  "rshb_vine/text_evidence_repair_v1/name_roles.py": {
+   "bytes": 17437,
+   "change": null,
+   "imported_by": "rshb_vine/text_evidence_repair_v1/composition.py",
+   "origin": "git",
+   "original_sha256": "dbae85002636a897bd0699abd8f82674d51206a25081652ff2f8505eb3890b18",
+   "role": "static_conditional",
+   "sha256": "dbae85002636a897bd0699abd8f82674d51206a25081652ff2f8505eb3890b18"
+  },
+  "rshb_vine/text_evidence_repair_v1/normalization.py": {
+   "bytes": 13199,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "5784bf0904de5faa366e4ce4eed687ff3fad63055c249f0efaa9dd028c844f93",
+   "role": "traced",
+   "sha256": "5784bf0904de5faa366e4ce4eed687ff3fad63055c249f0efaa9dd028c844f93"
+  },
+  "rshb_vine/text_evidence_repair_v1/producer_names.py": {
+   "bytes": 24817,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "19c09c6a0c7b04dd8118d88f282dc5dc2953bfa4d2c25a4512b1068cab7e1b23",
+   "role": "traced",
+   "sha256": "19c09c6a0c7b04dd8118d88f282dc5dc2953bfa4d2c25a4512b1068cab7e1b23"
+  },
+  "rshb_vine/text_evidence_repair_v2/__init__.py": {
+   "bytes": 114,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "025c5484c97cce45152de1218df0aecddec7cedc199579bea5ced1f1fc615510",
+   "role": "traced",
+   "sha256": "025c5484c97cce45152de1218df0aecddec7cedc199579bea5ced1f1fc615510"
+  },
+  "rshb_vine/text_evidence_repair_v2/composition.py": {
+   "bytes": 8120,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "ebd3601717b77690dbedc2eb415e02f33baa1185af5ffbe880a6628007a59374",
+   "role": "traced",
+   "sha256": "ebd3601717b77690dbedc2eb415e02f33baa1185af5ffbe880a6628007a59374"
+  },
+  "rshb_vine/text_evidence_repair_v2/experiment.py": {
+   "bytes": 5198,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "82ba674fe57031e81c87546b3bfd0b4e2b51355b3db9ca9f37a50ebbb6ab637a",
+   "role": "traced",
+   "sha256": "82ba674fe57031e81c87546b3bfd0b4e2b51355b3db9ca9f37a50ebbb6ab637a"
+  },
+  "rshb_vine/text_evidence_repair_v2/producer_consistency.py": {
+   "bytes": 15776,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "13844c57fa4e96bde4fdc1f5de5be06fb295d111eda0e0196b3e1dcefe647700",
+   "role": "traced",
+   "sha256": "13844c57fa4e96bde4fdc1f5de5be06fb295d111eda0e0196b3e1dcefe647700"
+  },
+  "rshb_vine/text_evidence_repair_v2/reader_preservation.py": {
+   "bytes": 13093,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "023b9b1d4d8e2b9719caffa735af68eb80ad0852edf352123b639053d40bdd1c",
+   "role": "traced",
+   "sha256": "023b9b1d4d8e2b9719caffa735af68eb80ad0852edf352123b639053d40bdd1c"
+  },
+  "rshb_vine/text_evidence_repair_v2/release.py": {
+   "bytes": 27170,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d2b074233a2690fe3cf18ecf1331944efde5806410f9aba20e89e7f959fa6dcf",
+   "role": "traced",
+   "sha256": "d2b074233a2690fe3cf18ecf1331944efde5806410f9aba20e89e7f959fa6dcf"
+  },
+  "rshb_vine/text_evidence_repair_v2/runtime.py": {
+   "bytes": 14966,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e968e99e87f52708294ba6efe122b29431e302f2a9d4f34ff0358a8b75958f99",
+   "role": "traced",
+   "sha256": "e968e99e87f52708294ba6efe122b29431e302f2a9d4f34ff0358a8b75958f99"
+  },
+  "rshb_vine/text_runtime_integration_v1/__init__.py": {
+   "bytes": 0,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "role": "traced",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "rshb_vine/text_runtime_integration_v1/contract.py": {
+   "bytes": 2959,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "73d812ed1deb5d641e7261975e7ef35f15649f99fd154aeb59d38db2e0e84571",
+   "role": "traced",
+   "sha256": "73d812ed1deb5d641e7261975e7ef35f15649f99fd154aeb59d38db2e0e84571"
+  },
+  "rshb_vine/training_admission.py": {
+   "bytes": 4755,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "70f562bf8bd7a396ff0ffdb62b1ad3537ddb133b64f06c2d67f0adfd0ced9242",
+   "role": "traced",
+   "sha256": "70f562bf8bd7a396ff0ffdb62b1ad3537ddb133b64f06c2d67f0adfd0ced9242"
+  },
+  "rshb_vine/typed_catalog_lexicon.py": {
+   "bytes": 4309,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "576c3b6d8ad3742dd0d917b09c64ac64dc8428430ff37e87cbc5b801da4b7f64",
+   "role": "traced",
+   "sha256": "576c3b6d8ad3742dd0d917b09c64ac64dc8428430ff37e87cbc5b801da4b7f64"
+  },
+  "rshb_vine/unified_recognition.py": {
+   "bytes": 4692,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b44581363f4d96c982579000a707ce883b5822076716380099628573274a593f",
+   "role": "traced",
+   "sha256": "b44581363f4d96c982579000a707ce883b5822076716380099628573274a593f"
+  },
+  "rshb_vine/variant_text_pipeline.py": {
+   "bytes": 2409,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8c85fcce2894935ae2d6c059e8722f9990b6e86d48b27f334ff74c079ad0ecf8",
+   "role": "traced",
+   "sha256": "8c85fcce2894935ae2d6c059e8722f9990b6e86d48b27f334ff74c079ad0ecf8"
+  },
+  "rshb_vine/verified_dual_recognition.py": {
+   "bytes": 2661,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "aacf3d1946dabc38860d7496a6a47075e4fee7a8f3d5c2fd7db75dd6474a1ec6",
+   "role": "traced",
+   "sha256": "aacf3d1946dabc38860d7496a6a47075e4fee7a8f3d5c2fd7db75dd6474a1ec6"
+  },
+  "rshb_vine/vision_ocr.py": {
+   "bytes": 3865,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "292e01c88ca77b5e292d90cd0309cf24cf486472a2576f6259a8ac42437670f0",
+   "role": "traced",
+   "sha256": "292e01c88ca77b5e292d90cd0309cf24cf486472a2576f6259a8ac42437670f0"
+  },
+  "rshb_vine/visual_core.py": {
+   "bytes": 4936,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "ce3c591cf4b066f252a4519d62a9015d4cc0e378e089715e23fd80e7cd24ba02",
+   "role": "traced",
+   "sha256": "ce3c591cf4b066f252a4519d62a9015d4cc0e378e089715e23fd80e7cd24ba02"
+  },
+  "rshb_vine/wine_object_profile.py": {
+   "bytes": 1377,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f123e395cb27e4c810c7bbffc456d4013b31bdc697c0eb9933a04ffbd86f8a03",
+   "role": "traced",
+   "sha256": "f123e395cb27e4c810c7bbffc456d4013b31bdc697c0eb9933a04ffbd86f8a03"
+  },
+  "rshb_vine/within_producer_title.py": {
+   "bytes": 2390,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d66a55bb97412ccb2d11c313b12de2504806bd050998e3dcb6eda1afd14878a2",
+   "role": "traced",
+   "sha256": "d66a55bb97412ccb2d11c313b12de2504806bd050998e3dcb6eda1afd14878a2"
+  },
+  "rshb_vine/zero_target_release_v1/__init__.py": {
+   "bytes": 119,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "f5dd1626f532044234f9a476d82b59e59de5a9f4a149e5bb890d9b23a76c1dc1",
+   "role": "traced",
+   "sha256": "f5dd1626f532044234f9a476d82b59e59de5a9f4a149e5bb890d9b23a76c1dc1"
+  },
+  "rshb_vine/zero_target_release_v1/release.py": {
+   "bytes": 28678,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a65d707010213e841a799a95adef65c29bb2dfc98f39be75b20f4ddc86698461",
+   "role": "traced",
+   "sha256": "a65d707010213e841a799a95adef65c29bb2dfc98f39be75b20f4ddc86698461"
+  },
+  "rshb_vine/zero_target_release_v1/route.py": {
+   "bytes": 7868,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "608fa91ebebd69ea05528d41c24b49833f086af44d5f853509a022d77f390338",
+   "role": "traced",
+   "sha256": "608fa91ebebd69ea05528d41c24b49833f086af44d5f853509a022d77f390338"
+  },
+  "scripts/atlas_geometry_repair_v1.py": {
+   "bytes": 17446,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "7da66d48811b317e5281d6015a7c97cdbc493f354562369295cb26476eff9a6c",
+   "role": "traced",
+   "sha256": "7da66d48811b317e5281d6015a7c97cdbc493f354562369295cb26476eff9a6c"
+  },
+  "scripts/atlas_repair_release_v1.py": {
+   "bytes": 8290,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d688bbe4a721ea044ea13b00298d067a09df596ab275a025ef2a3f31e3d3fe79",
+   "role": "traced",
+   "sha256": "d688bbe4a721ea044ea13b00298d067a09df596ab275a025ef2a3f31e3d3fe79"
+  },
+  "scripts/atlas_text_repair_v1.py": {
+   "bytes": 23276,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "58317e540d151731570474638cc9de81cc3dff2fe290788884f73337c679ad30",
+   "role": "traced",
+   "sha256": "58317e540d151731570474638cc9de81cc3dff2fe290788884f73337c679ad30"
+  },
+  "scripts/b3_only_release.py": {
+   "bytes": 20637,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "eb3573ca8b01ec9623db1e42ca8f5ba7d9150391185d341575fc5e4a505196a4",
+   "role": "traced",
+   "sha256": "eb3573ca8b01ec9623db1e42ca8f5ba7d9150391185d341575fc5e4a505196a4"
+  },
+  "scripts/b3_only_v1.py": {
+   "bytes": 4193,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6400808b0d25e68f74c5f5790a74f3434533feff3327bb196a141fca061bf42b",
+   "role": "traced",
+   "sha256": "6400808b0d25e68f74c5f5790a74f3434533feff3327bb196a141fca061bf42b"
+  },
+  "scripts/catalog_training_evaluate_v2.py": {
+   "bytes": 15559,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "cd94b41abbf41649c73a582ddde4b130ff251a7592bcfed49258157dc354ec8b",
+   "role": "traced",
+   "sha256": "cd94b41abbf41649c73a582ddde4b130ff251a7592bcfed49258157dc354ec8b"
+  },
+  "scripts/catalog_training_v2.py": {
+   "bytes": 9478,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e127e7031fc2ad4aac6b86d593ad89e4778a70e3b34ef94bfa60674ea6f5dd6e",
+   "role": "traced",
+   "sha256": "e127e7031fc2ad4aac6b86d593ad89e4778a70e3b34ef94bfa60674ea6f5dd6e"
+  },
+  "scripts/decision_consistency_v1.py": {
+   "bytes": 16814,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d6df53cab04b58d0adc7465a39b988b08425693fd3d0910510b8300e933e1e30",
+   "role": "traced",
+   "sha256": "d6df53cab04b58d0adc7465a39b988b08425693fd3d0910510b8300e933e1e30"
+  },
+  "scripts/evidence_consistency_release_v1.py": {
+   "bytes": 26988,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d7a61af8aed5497dddd3f0a7d8a602f188f4227e8362d7b211c2ffd608fcb6cd",
+   "role": "traced",
+   "sha256": "d7a61af8aed5497dddd3f0a7d8a602f188f4227e8362d7b211c2ffd608fcb6cd"
+  },
+  "scripts/existing_target_parent_v1.py": {
+   "bytes": 12579,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2e3029ff4b08f49f02abce3b6fc3f934d62ea187e66d5e332cdf230471e2948b",
+   "role": "traced",
+   "sha256": "2e3029ff4b08f49f02abce3b6fc3f934d62ea187e66d5e332cdf230471e2948b"
+  },
+  "scripts/front_label_repair_v1.py": {
+   "bytes": 16378,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2feb27bf1d983abcfb44393a7035c5d028fb6be5fae3a6fcd9da30752a117984",
+   "role": "traced",
+   "sha256": "2feb27bf1d983abcfb44393a7035c5d028fb6be5fae3a6fcd9da30752a117984"
+  },
+  "scripts/reading_recovery_v1.py": {
+   "bytes": 26344,
+   "change": null,
+   "imported_by": "rshb_vine/reading_recovery_v1/candidate.py",
+   "origin": "git",
+   "original_sha256": "14443377a8caefbd9d909bd65f909fb37b105455d3d88494b087e9a808596b03",
+   "role": "static_conditional",
+   "sha256": "14443377a8caefbd9d909bd65f909fb37b105455d3d88494b087e9a808596b03"
+  },
+  "scripts/recognition_repair_release_v2.py": {
+   "bytes": 28103,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "196cdf0d47a138d97a7585057d1dd62a61a05c69f321de2cb612d064fd57aa15",
+   "role": "traced",
+   "sha256": "196cdf0d47a138d97a7585057d1dd62a61a05c69f321de2cb612d064fd57aa15"
+  },
+  "scripts/recognition_repair_v1.py": {
+   "bytes": 15298,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "32b6ef3f56e919e92b81e5090ac618c9fd8bb326723e5c25d2c96dd2e41834fb",
+   "role": "traced",
+   "sha256": "32b6ef3f56e919e92b81e5090ac618c9fd8bb326723e5c25d2c96dd2e41834fb"
+  },
+  "scripts/recognition_repair_v2.py": {
+   "bytes": 45109,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "062ab326cb6d6f1b2a659f10fc1a21d3d2d5908f3edadac7c03a91e1f1e2c25f",
+   "role": "traced",
+   "sha256": "062ab326cb6d6f1b2a659f10fc1a21d3d2d5908f3edadac7c03a91e1f1e2c25f"
+  },
+  "scripts/recognize.py": {
+   "bytes": 4150,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6faabf40f02e265e73b26d6b813a88c54fc4cd42daaa90516002e924843b4a77",
+   "role": "traced",
+   "sha256": "6faabf40f02e265e73b26d6b813a88c54fc4cd42daaa90516002e924843b4a77"
+  },
+  "scripts/reference_additions_v1.py": {
+   "bytes": 4225,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "64681d2db05f3cc8b9ea44a384f44e5f2afabb3593633eb44f67895b2cebde21",
+   "role": "traced",
+   "sha256": "64681d2db05f3cc8b9ea44a384f44e5f2afabb3593633eb44f67895b2cebde21"
+  },
+  "scripts/release_next_v1.py": {
+   "bytes": 8759,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "56d9bc95451249e42506328524cd686577c3b4f814ba58e2d2a21642ba9a00b8",
+   "role": "traced",
+   "sha256": "56d9bc95451249e42506328524cd686577c3b4f814ba58e2d2a21642ba9a00b8"
+  },
+  "scripts/run_admitted_evidence_recognition.py": {
+   "bytes": 1482,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "dab3272d92d459c8a6d27f6f40ecd00578e0027d65c35aecc44a08ce71d727b7",
+   "role": "traced",
+   "sha256": "dab3272d92d459c8a6d27f6f40ecd00578e0027d65c35aecc44a08ce71d727b7"
+  },
+  "scripts/run_bottle_rescue.py": {
+   "bytes": 1268,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "fbddf5af1a76a29bd8a8a9a87391b7ee88bec11e1d49318479ec483f3132aa2e",
+   "role": "traced",
+   "sha256": "fbddf5af1a76a29bd8a8a9a87391b7ee88bec11e1d49318479ec483f3132aa2e"
+  },
+  "scripts/run_catalog_phrase_profile.py": {
+   "bytes": 2081,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0bc3986e9d4a4a048b0a693b1ecfca048b66176870fffee5c7ef3fe84cadbd4e",
+   "role": "traced",
+   "sha256": "0bc3986e9d4a4a048b0a693b1ecfca048b66176870fffee5c7ef3fe84cadbd4e"
+  },
+  "scripts/run_catalog_title_candidate.py": {
+   "bytes": 2675,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b6d6e64b9ffc926c670551cce6295a66d8dbe6b20a40897386cc59cf3a61e7f7",
+   "role": "traced",
+   "sha256": "b6d6e64b9ffc926c670551cce6295a66d8dbe6b20a40897386cc59cf3a61e7f7"
+  },
+  "scripts/run_color_verified_recognition.py": {
+   "bytes": 1470,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "7a0f87679cc8866e8905e394e07a58099941fe3a3cffe70338f6299776baf9ca",
+   "role": "traced",
+   "sha256": "7a0f87679cc8866e8905e394e07a58099941fe3a3cffe70338f6299776baf9ca"
+  },
+  "scripts/run_crop_stage.py": {
+   "bytes": 3800,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "b156ce4577b59456fb0db963403e7e6a0d7dbf4e012357793f05c6f7ec7050cb",
+   "role": "traced",
+   "sha256": "b156ce4577b59456fb0db963403e7e6a0d7dbf4e012357793f05c6f7ec7050cb"
+  },
+  "scripts/run_fanagoria_gallery_candidate.py": {
+   "bytes": 1874,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "1ec13efe8f88f037aa96b0779d8913767683a9ae280a5f5ca2aada6c53ab6bc4",
+   "role": "traced",
+   "sha256": "1ec13efe8f88f037aa96b0779d8913767683a9ae280a5f5ca2aada6c53ab6bc4"
+  },
+  "scripts/run_gallery_supplement.py": {
+   "bytes": 1770,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "9448a085563aaa61a12dcfac097ed57cd877001cb61021c8aae038547d1bdf2e",
+   "role": "traced",
+   "sha256": "9448a085563aaa61a12dcfac097ed57cd877001cb61021c8aae038547d1bdf2e"
+  },
+  "scripts/run_geometry_loop.py": {
+   "bytes": 3639,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e56063632472e288f7d3a607a57c740de9433c090bd1e631b18c9c08fdaffe02",
+   "role": "traced",
+   "sha256": "e56063632472e288f7d3a607a57c740de9433c090bd1e631b18c9c08fdaffe02"
+  },
+  "scripts/run_instance_text_candidate.py": {
+   "bytes": 1542,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "07f7046ebc29fc9daf0197a133e20686e670474f231c2bc41eaa2416ba7be5f1",
+   "role": "traced",
+   "sha256": "07f7046ebc29fc9daf0197a133e20686e670474f231c2bc41eaa2416ba7be5f1"
+  },
+  "scripts/run_integrated_recognition.py": {
+   "bytes": 1456,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e2c0fd7eeb6a1416117cf27fed4e8f5101c59a26f3eab70911fbb2af615507e2",
+   "role": "traced",
+   "sha256": "e2c0fd7eeb6a1416117cf27fed4e8f5101c59a26f3eab70911fbb2af615507e2"
+  },
+  "scripts/run_label_first.py": {
+   "bytes": 13857,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "e94eb2eae6823648be36453b22eb815840ff3c61365690c394002ee9d4ce61ea",
+   "role": "traced",
+   "sha256": "e94eb2eae6823648be36453b22eb815840ff3c61365690c394002ee9d4ce61ea"
+  },
+  "scripts/run_label_rescue.py": {
+   "bytes": 1907,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "a9697b6a0be7a816a363705d6c91b9504f3bdcc72009cf15ecdded4fc50bc234",
+   "role": "traced",
+   "sha256": "a9697b6a0be7a816a363705d6c91b9504f3bdcc72009cf15ecdded4fc50bc234"
+  },
+  "scripts/run_label_specialist_consensus.py": {
+   "bytes": 4702,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "958481ab6417e6a9979a54d5c47aab7ce26f69ce2984f4ebfae6f4b1031c50fa",
+   "role": "traced",
+   "sha256": "958481ab6417e6a9979a54d5c47aab7ce26f69ce2984f4ebfae6f4b1031c50fa"
+  },
+  "scripts/run_oriented_geometry.py": {
+   "bytes": 1423,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "fa6fa6077c9099d9ee930fb09cb2551c1ad27079826525f91b47ea6d522cddef",
+   "role": "traced",
+   "sha256": "fa6fa6077c9099d9ee930fb09cb2551c1ad27079826525f91b47ea6d522cddef"
+  },
+  "scripts/run_recognition.py": {
+   "bytes": 3735,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "efcda66e58b60accbde30757712740ed5346d075a8da4ef603240562df33d476",
+   "role": "traced",
+   "sha256": "efcda66e58b60accbde30757712740ed5346d075a8da4ef603240562df33d476"
+  },
+  "scripts/run_recognition_profile.py": {
+   "bytes": 2252,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0744fa59884920928f65c36d0f732a3b833d654fcbf531df9ee6f1d25cee11ce",
+   "role": "traced",
+   "sha256": "0744fa59884920928f65c36d0f732a3b833d654fcbf531df9ee6f1d25cee11ce"
+  },
+  "scripts/run_reference_dual_recognition.py": {
+   "bytes": 1470,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2d251947c4413ac3adaf8fb5e6569f74620202b8953a3b694b508e1c57c86bb5",
+   "role": "traced",
+   "sha256": "2d251947c4413ac3adaf8fb5e6569f74620202b8953a3b694b508e1c57c86bb5"
+  },
+  "scripts/run_selected_recognition.py": {
+   "bytes": 1993,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "cf63b616c6dcb8bfc6f7a57e31d12969a686c17bfcc67f056b33406c198babb4",
+   "role": "traced",
+   "sha256": "cf63b616c6dcb8bfc6f7a57e31d12969a686c17bfcc67f056b33406c198babb4"
+  },
+  "scripts/run_source_variant_profile.py": {
+   "bytes": 2347,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "630a2b941fdded9478e3fe7a07ba4e0e02a220527ee22659359261a9332f9fe0",
+   "role": "traced",
+   "sha256": "630a2b941fdded9478e3fe7a07ba4e0e02a220527ee22659359261a9332f9fe0"
+  },
+  "scripts/run_unified_candidate.py": {
+   "bytes": 2088,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "6dfc3842286c040e213d404583f9154c8d39aea8e7996f65c9ffe4ac61eec8b2",
+   "role": "traced",
+   "sha256": "6dfc3842286c040e213d404583f9154c8d39aea8e7996f65c9ffe4ac61eec8b2"
+  },
+  "scripts/run_unified_recognition.py": {
+   "bytes": 1399,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "cf5d714e86154bdb9aafebb064fb3fbf23c9aab9cd0fbb397a3f88564bb21245",
+   "role": "traced",
+   "sha256": "cf5d714e86154bdb9aafebb064fb3fbf23c9aab9cd0fbb397a3f88564bb21245"
+  },
+  "scripts/run_verified_dual_recognition.py": {
+   "bytes": 1466,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "d080e95e8b796c48aef08c171b74b289e0afdbc26c30324de75f1425e07b05d8",
+   "role": "traced",
+   "sha256": "d080e95e8b796c48aef08c171b74b289e0afdbc26c30324de75f1425e07b05d8"
+  },
+  "scripts/run_vision_text.py": {
+   "bytes": 3311,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "3017de08f7fa646cdc085025776c6f107270e401cedefb6f61d07972c4e434e2",
+   "role": "traced",
+   "sha256": "3017de08f7fa646cdc085025776c6f107270e401cedefb6f61d07972c4e434e2"
+  },
+  "scripts/run_wine_object_profile.py": {
+   "bytes": 2192,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8ae254d8c81fcb408fe34d8d946940edaa52d611f3994d548dcb22540df675c4",
+   "role": "traced",
+   "sha256": "8ae254d8c81fcb408fe34d8d946940edaa52d611f3994d548dcb22540df675c4"
+  },
+  "scripts/run_wine_object_threshold.py": {
+   "bytes": 1690,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "92060ef2eef6a4d8ded4b7a15bf7b98b0a4dcc10e9260a9988774f42030bcbf5",
+   "role": "traced",
+   "sha256": "92060ef2eef6a4d8ded4b7a15bf7b98b0a4dcc10e9260a9988774f42030bcbf5"
+  },
+  "scripts/systemic_ranking_v2.py": {
+   "bytes": 38583,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "2aa3cea8e2b605c51b533357afe80261358092b6a7723745391619f8d1e61cee",
+   "role": "traced",
+   "sha256": "2aa3cea8e2b605c51b533357afe80261358092b6a7723745391619f8d1e61cee"
+  },
+  "scripts/text_evidence_release_v2.py": {
+   "bytes": 25853,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "154b2fb031a60ffeed272d51943b6b53a1557ea1447e514fe58a19a29e24d02e",
+   "role": "traced",
+   "sha256": "154b2fb031a60ffeed272d51943b6b53a1557ea1447e514fe58a19a29e24d02e"
+  },
+  "scripts/text_evidence_repair_v1.py": {
+   "bytes": 25819,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "8812ae96892799c2afab09c857a6aca8d5ed38f696a9b578b46a127be6fa20cf",
+   "role": "traced",
+   "sha256": "8812ae96892799c2afab09c857a6aca8d5ed38f696a9b578b46a127be6fa20cf"
+  },
+  "scripts/text_evidence_repair_v2.py": {
+   "bytes": 19921,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "741d77870f4822240ce641195737073444e70118446d9968504e06c5fa07bc1d",
+   "role": "traced",
+   "sha256": "741d77870f4822240ce641195737073444e70118446d9968504e06c5fa07bc1d"
+  },
+  "scripts/vision_ocr.swift": {
+   "bytes": 2425,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "0b3da0511477bda38c829f501a6267e3d5e4d59b8f93c1f9d4cc735d52a3f398",
+   "role": "traced",
+   "sha256": "0b3da0511477bda38c829f501a6267e3d5e4d59b8f93c1f9d4cc735d52a3f398"
+  },
+  "scripts/zero_target_release_v1.py": {
+   "bytes": 67776,
+   "change": null,
+   "origin": "git",
+   "original_sha256": "247cd4d35cbd20cca829efa89567625f4b2ed8308fb34dce28c021438dcd5f95",
+   "role": "traced",
+   "sha256": "247cd4d35cbd20cca829efa89567625f4b2ed8308fb34dce28c021438dcd5f95"
+  }
+ },
+ "kind": "wine-scanner-core-source-ledger-v1",
+ "note": "Byte-identical copies of the private serving source the traced Linux V6 runtime reads. Plus modules in the static import closure of the imported code.",
+ "plan": "b90c567e1a858915955d6598ecd6b0dde69902d290787f2105f04aa97608f2fe",
+ "private_commit": "2616475c6a5be4e6139b412cf33ea3e2e7c018d8"
+}
