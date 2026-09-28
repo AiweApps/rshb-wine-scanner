@@ -21,3 +21,60 @@ services:
     security_opt:
       - no-new-privileges:true
     restart: unless-stopped
+
+  # Optional Linux CPU recognizer (PP-OCRv6) with its own gateway; start with:
+  #   docker compose --profile linux up -d core gateway-linux
+  core:
+    profiles: [linux]
+    build:
+      context: .
+      dockerfile: docker/core.Dockerfile
+    image: rshb-wine-scanner-core:local
+    environment:
+      WINE_SCANNER_CORE_ASSETS_SHA256: ${WINE_SCANNER_CORE_ASSETS_SHA256:-}
+      WINE_SCANNER_CORE_EXPECTED: ${WINE_SCANNER_CORE_EXPECTED:-}
+      WINE_SCANNER_CORE_THREADS: "2"
+    ports:
+      - "127.0.0.1:${WINE_SCANNER_CORE_PUBLISH_PORT:-8375}:8375"
+      - "127.0.0.1:${WINE_SCANNER_LINUX_PUBLISH_PORT:-8387}:8287"
+    volumes:
+      - {type: bind, source: "${WINE_SCANNER_CORE_ASSETS_HOST_DIR:-./assets/core}/manifest.json", target: /srv/pack/manifest.json, read_only: true}
+      - {type: bind, source: "${WINE_SCANNER_CORE_ASSETS_HOST_DIR:-./assets/core}/tree/config", target: /srv/core/config, read_only: true}
+      - {type: bind, source: "${WINE_SCANNER_CORE_ASSETS_HOST_DIR:-./assets/core}/tree/data", target: /srv/core/data, read_only: true}
+      - {type: bind, source: "${WINE_SCANNER_CORE_ASSETS_HOST_DIR:-./assets/core}/tree/models", target: /srv/core/models, read_only: true}
+      - {type: bind, source: "${WINE_SCANNER_CORE_ASSETS_HOST_DIR:-./assets/core}/tree/runs", target: /srv/core/runs, read_only: true}
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /srv/core/data/catalog-additions-20260921/startup-receipts:uid=10001,mode=0700
+    cpus: 2
+    mem_limit: 12g
+    memswap_limit: 12g
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+
+  gateway-linux:
+    profiles: [linux]
+    build: .
+    image: rshb-wine-scanner-gateway:local
+    network_mode: service:core
+    depends_on:
+      - core
+    environment:
+      WINE_SCANNER_BACKEND: http://127.0.0.1:8375
+      WINE_SCANNER_ASSETS_SHA256: ${WINE_SCANNER_LINUX_ASSETS_SHA256:-}
+      WINE_SCANNER_EXPECTED_PROFILE: ${WINE_SCANNER_CORE_EXPECTED:-}
+    volumes:
+      - type: bind
+        source: ${WINE_SCANNER_LINUX_ASSETS_HOST_DIR:-./assets/web-core}
+        target: /assets
+        read_only: true
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

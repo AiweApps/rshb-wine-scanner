@@ -1,5 +1,8 @@
 *
 !requirements.txt
 !wine_scanner/
+!wine_scanner_core/
+!recognizer/
+!docker/core-requirements.txt
 **/__pycache__
 **/*.pyc
