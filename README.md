@@ -4,7 +4,7 @@
 из каталога «Своё вино»: название, характеристики, эталонное фото и ссылку на товар.
 На снимке с несколькими бутылками можно выбрать нужную.
 
-**[Открыть сервис](https://vines.aiweapps.com)** ·
+**[Открыть сервис](https://wines.aiweapps.com)** ·
 [Мобильное приложение](https://github.com/AiweApps/rshb-hack-flutter)
 
 ## Попробовать в браузере
@@ -14,14 +14,14 @@
 
 ## HTTP API
 
-Адрес: `https://vines.aiweapps.com`.
+Адрес: `https://wines.aiweapps.com`.
 Для приложения или скрипта получите гостевой токен, затем отправьте фото:
 
 ```bash
-TOKEN=$(curl --fail -sS -X POST https://vines.aiweapps.com/auth/guest/token | jq -r .access_token)
+TOKEN=$(curl --fail -sS -X POST https://wines.aiweapps.com/auth/guest/token | jq -r .access_token)
 
 curl --fail -H "Authorization: Bearer $TOKEN" -F 'image=@photo.jpg' \
-  https://vines.aiweapps.com/api/recognize
+  https://wines.aiweapps.com/api/recognize
 ```
 
 В ответе `view.bottles` находятся карточки распознанных бутылок и альтернативы.
@@ -46,7 +46,7 @@ bash evaluation/organizer/participant_remote_test.sh \
   --output predictions.jsonl
 ```
 
-Скрипт сам получает токен и обращается к `https://vines.aiweapps.com`.
+Скрипт сам получает токен и обращается к `https://wines.aiweapps.com`.
 Нужны bash, curl, jq и awk.
 
 В `queries.tsv` две колонки через табуляцию. Пути к фото указаны относительно

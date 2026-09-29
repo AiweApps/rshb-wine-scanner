@@ -6,7 +6,7 @@
 
 set -uo pipefail
 
-origin="https://vines.aiweapps.com"
+origin="https://wines.aiweapps.com"
 images_dir=""
 manifest=""
 output="predictions.jsonl"
